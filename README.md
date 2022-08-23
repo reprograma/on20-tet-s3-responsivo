@@ -173,7 +173,7 @@ _Quais são:_
 
   Entretanto, o que acontece quando se tem um elemento com valor **em** dentro de outro elemento com valor **em** ?
 
-[![unidade-em-aninhada](./imagens/unidade-em-aninhada.jpg)](https://codepen.io/raissamartinsmenezes/pen/OJJXdzQ)
+[![unidade-em-aninhada](https://codepen.io/raissamartinsmenezes/pen/OJJXdzQ)
 
 [Calculadora online: px para em](http://pxtoem.com/)
 
