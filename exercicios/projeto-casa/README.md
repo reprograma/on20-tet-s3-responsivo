@@ -1,10 +1,15 @@
 # Projetinho 📓  
 
-## Nome do Projeto
+## Vamos de responsividade! 
 
-- Explicação do projeto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade dele, utilizando os media query: 
+**Mobile**: @(min-width: 320) and (max-width:480px);
+**Tablet** @(min-width: 600px)
+
+Crie novos arquivos html, css e pasta de imagens dentro da pasta projeto-casa e cópie o código.
+
+🛎️ Lembre de linkar o css e as imagens no arquivo html!
+
 ---
 
 Terminou o projetinho? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

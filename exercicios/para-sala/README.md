@@ -1,10 +1,12 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## Transformando layouts!
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+-  Vamos praticar transformando um layout  do nosso projeto  desktop em responsivo. 📲
+
+- Crie novos arquivos html, css e a pasta img dentro da pasta "para-sala" e copie o código da aula anterior. 
+  
+- Lembre de linkar o arquivo css e as imagens. 
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
