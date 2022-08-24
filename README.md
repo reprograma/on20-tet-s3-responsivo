@@ -8,9 +8,39 @@ Turma Online 20 - Todas em Tech  | Front-end | Semana 3 | 2022 | Professora Jaqu
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
+* Clique no botão "code"
+* Copie o endereço do repositório
+* Abra o seu Gitbash
+
+* Entre no seu desktop:
+```
+     cd desktop
+```
+* Clone o fork na sua máquina: basta abrir o seu terminal e digitar:
+  
+```
+     git clone url-do-seu-repositorio-forkado
+```
+* Digite o comando  ls para encontrar o seu repositório:
+  
+```
+     ls
+```
+* Copie o nome do repositorio e entre na pasta clonada:
+  
+```
+     cd on20-tet-s2-html-css
+```
+* Crie uma branch com o seu nome:
+  
+```
+     git checkout -b seu-nome
+```
+* Digite o comando para abrir o projeto no vscode:
+  
+```
+     code .
+```
 
 ### Resumo
 O que veremos na aula de hoje?
@@ -90,7 +120,7 @@ Um **layout responsivo** é aquele que se "adapta" automaticamente aos dispositi
   - Desktops
   - Televisões
 
-![many-devices](./imagens/many-devices.jpg)
+![many-devices](./assets/img/many-devices.jpg)
 
 **Alguns fundamentos para a construção de um layout responsivo são:**
 
@@ -128,7 +158,7 @@ O design responsivo expande de forma fluída, enquanto o adaptativo aguarda a te
 
 É fundamental termos em mente que **a resolução é determinada pelo tamanho da tela (expresso pela sua altura e largura) mais a quantidade de pixels nela inserida.**
 
-![comparativa-resolucao](./imagens/comparativa-resolucao.jpg)
+![comparativa-resolucao](./assets/img/comparativa-resolucao.jpg)
 
 Dessa forma, olhando simplesmente para o tamanho (largura x altura) **não podemos afirmar que esse possui alta ou baixa resolução. A quantidade de pixels contidas nele, é que dirá se o mesmo possui alta ou baixa resolução.**
 
@@ -165,23 +195,27 @@ _Quais são:_
 
 * em
 
-  **EM** é uma unidade de **medida tipográfica**. Para entender sua aplicação, vamos utilizar o exemplo abaixo onde foi definido um tamanho de fonte no elemento `<div>`. O valor de **em** declarado em qualquer elemento-filho dentro de `<div>` será igual a: **o valor declarado no elemento-filho * o valor declarado no elemento pai**. 
+  **EM** vem de “ ephemeral”  e é uma unidade de **medida tipográfica**. Para entender sua aplicação, vamos utilizar o exemplo abaixo onde foi definido um tamanho de fonte no elemento `<div>`. O valor de **em** declarado em qualquer elemento-filho dentro de `<div>` será igual a: **o valor declarado no elemento-filho * o valor declarado no elemento pai**. 
 
   ```
     Nesse caso: **1.2(em) * 14px = 16.8px**
   ```
 
+  ![unidade-em](./assets/img/unidade-em.jpg)
+
   Entretanto, o que acontece quando se tem um elemento com valor **em** dentro de outro elemento com valor **em** ?
 
-[![unidade-em-aninhada](./imagens/unidade-em-aninhada.jpg)](https://codepen.io/raissamartinsmenezes/pen/OJJXdzQ)
+![unidade-em-aninhada](./assets/img/unidade-em-aninhada.jpgQ)
 
 [Calculadora online: px para em](http://pxtoem.com/)
 
 * rem
 
-   O **REM** vem como sucessor do **EM** e ambos compartilham a mesma lógica de funcionamento, porém a forma de implementação é diferente. Enquanto o em está diretamente relacionado ao tamanho da fonte do elemento pai, o **rem** está relacionado com o tamanho da fonte do **elemento root (raiz)**. Embora sejam medidas tipográficas, **REM e EM** também podem ser utilizadas para outras finalidades, na atribuição de valores para margins e paddings por exemplo.  
+   O **REM** -  vem de “Root ephemeral”  e chega como sucessor do **EM** e ambos compartilham a mesma lógica de funcionamento, porém a forma de implementação é diferente. Enquanto o em está diretamente relacionado ao tamanho da fonte do elemento pai, o **rem** está relacionado com o tamanho da fonte do **elemento root (raiz)**. Embora sejam medidas tipográficas, **REM e EM** também podem ser utilizadas para outras finalidades, na atribuição de valores para margins e paddings por
 
-[![unidade-rem](./imagens/unidade-rem.jpg)](https://codepen.io/raissamartinsmenezes/pen/LYYRZam)
+![unidade-rem](./assets/img/unidade-rem.jpg)
+
+Referência: [ Raissa Martins - Rem](https://codepen.io/raissamartinsmenezes/pen/LYYRZam)
 
 [Calculadora online: px para rem](https://daniellamb.com/experiments/px-to-rem-calc/) 
 
@@ -189,11 +223,13 @@ _Quais são:_
 
 Apesar de não ser uma unidade de medida, a porcentagem costuma ser bastante utilizada quando falamos de layout responsivo e fluido por conta de seu caráter adaptativo.
 
-[![porcentagem](./imagens/porcentagem.jpg)](https://codepen.io/raissamartinsmenezes/pen/abbmJvY)  
+![porcentagem](./assets/img/porcentagem.jpg)
+Referência: [ Raissa Martins - Porcentagem ](https://codepen.io/raissamartinsmenezes/pen/abbmJvY)
 
 A porcentagem permite que criemos elementos que sempre vão se readaptar para ocupar a quantidade especificada.
 
-[![porcentagem-muda-tamanho](./imagens/porcentagem-muda-tamanho.jpg)](https://codepen.io/raissamartinsmenezes/pen/abbmJvY)
+![porcentagem-muda-tamanho](./assets/img/porcentagem-muda-tamanho.jpg)
+Referência: [Raissa Martins - Porcentagem](https://codepen.io/raissamartinsmenezes/pen/abbmJvY)
 
 **Note que a propriedade `width:` é relativa ao elemento-ancestral mais próximo.** 
 
@@ -203,7 +239,8 @@ A porcentagem permite que criemos elementos que sempre vão se readaptar para oc
 
  A medida vh é igual a **1/100** da altura da viewport. Então, por exemplo, se a altura do navegador é 900px, 1vh equivale a 9px e, analogamente, se a largura da viewport é 750px, 1vw equivale a 7.5px. Sendo assim, **1vw = 1% da largura da viewport e 1vh = 1% da altura da viewport**.
 
-![grid-100](./imagens/grid-100.jpg)
+
+![vw-vh](./assets/img/vw-vh.jpg)
 
 Vamos conferir o [exemplo 😊](./exemplos/exemplo-medidas-viewport.html)
 
@@ -220,7 +257,7 @@ Vamos conferir o [exemplo 😊](./exemplos/exemplo-medidas-viewport.html)
 
 **Mobile First** é um método onde o foco do desenvolvimento de projetos web está direcionado aos dispositivos móveis. A técnica prioriza a construção da arquitetura mobile, seguida do pensamento para desktops. O conceito está cada vez mais popular no mercado da comunicação e da tecnologia.
 
-![mobile-first](./imagens/mobile-first.jpeg)
+![mobile-first](./assets/img/mobile-first.jpeg)
 
 **Vantagens:**
 
@@ -255,7 +292,7 @@ Nos demais casos, use sempre PNG, optando  por utilizar imagens com até 1500px.
 
 Imagens responsivas respondem ao tamanho da tela para escalar porporcionalmente, sem ficar pixeladas ou desproporcionais.
 
-![imagem-maior](./imagens/imagem-maior.jpg)
+![imagem-maior](./assets/img/imagem-maior.jpg)
 
 Uma técnica para conseguirmos ter imagens responsivas é a seguinte:
 
@@ -271,18 +308,18 @@ Uma técnica para conseguirmos ter imagens responsivas é a seguinte:
 
 ![max-width](https://www.oficinadanet.com.br/imagens/post/13652/3038367-slide-s-7-9-gifs-that-explain-responsive-design-brilliantly-07max-width-vx-no-max-width-1.gif)
 
-#### Classes e Identificadores nas tags
+### Classes e Identificadores nas tags
 
 Utilizando  **Classes e os  IDS** no HTML para nomearmos as tags. Podemos chamá-las no CSS para criarmos as estilizações.
 Chamamos a classe usando o **.**, exemplo:
 
- ```http
+ ```
  
   <nav class = "navegador"></nav>
 
  ``` 
 
- ```css
+ ```
  
   .navegador {
     background-color: blue;
@@ -293,13 +330,13 @@ Chamamos a classe usando o **.**, exemplo:
 
 Para o ID usamos a # (cerquilha):
 
-```http
+```
  
   <main id = "principal"></nav>
 
  ``` 
 
- ```css
+ ```
  
   #principal {
     background-color: red;
@@ -320,6 +357,8 @@ As media queries definem condições para utilização de estilos CSS. Se o disp
 
 Os **breakpoints**, literalmente, são pontos de interrupção. São pontos que a interface do usuário será adaptada para um novo tamanho de tela, ou densidade de pixels.
 Eles são aplicados graças as media queries, pois seus valores são utilizados na sintaxe, definindo a partir de qual ponto os estilos CSS serão aplicados.
+
+
 
 ![gif-breakpoints](https://www.oficinadanet.com.br/imagens/post/13652/3038367-slide-s-3-9-gifs-that-explain-responsive-design-brilliantly-03with-breakpoints-vs-without-breakpoints-1.gif)
 
@@ -345,7 +384,7 @@ Eles são aplicados graças as media queries, pois seus valores são utilizados 
 </head>
 ```
 
-![breakpoints-media-queries](./imagens/breakpoints-media-queries.jpg)
+![breakpoints-media-queries](./assets/img/breakpoints-media-queries.jpg)
 
 **Sintaxe:**
 
@@ -371,7 +410,7 @@ Eles são aplicados graças as media queries, pois seus valores são utilizados 
   }
 }
 ```
-![breakpoints-comuns](./imagens/breakpoints-comuns.jpg)
+![breakpoints-comuns](./assets/img/breakpoints-comuns.jpg)
 
 Vamos analisar sua aplicação no [exemplo 😊](./exemplos/exemplo-media-queries.html)
 
@@ -382,6 +421,10 @@ A propriedade display especifica o tipo de caixa - lembra que tudo é caixa? - d
 #### Tipos de display 
 
 * Flex 
+  
+O display flex, como o nome diz é um display que permite a flexibilidade na inclusão do conteúdo. O display flex é incluido no elemento pai, tornando os filhos flex-itens.
+
+Com diversos 
 Vamos entender como o flex funciona:
 [aqui!](https://codepen.io/raissamartinsmenezes/pen/XWWNbrP)
 
@@ -394,20 +437,23 @@ Vamos entender como o flex funciona:
  
 ### Grid 
 
-![flexbox-grid](https://pt.stackoverflow.com/questions/327488/flexbox-css-grid)
+![grid-100](./assets/img/grid-100.jpg)
+
+[flexbox-grid](https://pt.stackoverflow.com/questions/327488/flexbox-css-grid)
 
 [Guia completo de Grid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
 ---
 
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+* [Exercicio para sala](https://github.com/reprograma/on20-tet-s3-responsivo/tree/main/exercicios/para-sala)
+* [Exercicio para casa](https://github.com/reprograma/on20-tet-s3-responsivo/tree/main/exercicios/para-casa)
 
 ### Material da aula 
 
 ### Links Úteis
 
+- [Guia de CSS](https://css-tricks.com/guides/)
 - [Qual unidade de medida utilizar: Pixel, Em ou REM?](https://receitasdecodigo.com.br/front-end/qual-unidade-de-medida-voce-usa-em-seu-css-px-em-ou-rem)
 - [Unidades de Medidas no CSS](https://www.treinaweb.com.br/blog/unidades-de-medidas-no-css)
 - [Calculadora PPI ](https://www.calculatorsoup.com/calculators/technology/ppi-calculator.php)
