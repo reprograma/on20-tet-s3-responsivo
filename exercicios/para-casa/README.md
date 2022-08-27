@@ -1,10 +1,9 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## Vamos praticar!
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Brinque com a sua atividade da sala de aula e mude os tamanhos de margin, padding, imagens, fonte, observe e analise como ficam as alterações na sua página.
+Um exercicio para aprendizagem. 
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

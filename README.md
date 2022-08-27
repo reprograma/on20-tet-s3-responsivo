@@ -45,10 +45,10 @@ Antes de começar, vamos organizar nosso setup.
 ### Resumo
 O que veremos na aula de hoje?
 * [Mobile First](#mobilefirst)
-* [Media Queries ](#mediaquery)
-* [Tipos de Display](#display)
 * [Imagens Responsivas](#imagens)
 * [Unidades de medidas](#medidas)
+* [Tipos de Display](#display)
+* [Media Queries ](#mediaquery)
 
 * [Intervalos](#intervalos)
    Intervalos: Vamos comer 😋, esticar as pernas e  beber café! ☕
@@ -81,7 +81,7 @@ O que veremos na aula de hoje?
     * [PNG](#em)
     * [JPEG](#rem)
     * [SVG](#porcentagem)
-  * 
+  
 
 ### Classes e Identificadores nas tags
 1. [Uso de classes e indentificadores nas tags](#classeseindetificadores)
@@ -363,7 +363,6 @@ Os **breakpoints**, literalmente, são pontos de interrupção. São pontos que 
 Eles são aplicados graças as media queries, pois seus valores são utilizados na sintaxe, definindo a partir de qual ponto os estilos CSS serão aplicados.
 
 
-
 ![gif-breakpoints](https://www.oficinadanet.com.br/imagens/post/13652/3038367-slide-s-3-9-gifs-that-explain-responsive-design-brilliantly-03with-breakpoints-vs-without-breakpoints-1.gif)
 
 ##### Os brekpoints mais utilizados são:
@@ -446,6 +445,10 @@ Vamos entender como o flex funciona:
 [flexbox-grid](https://pt.stackoverflow.com/questions/327488/flexbox-css-grid)
 
 [Guia completo de Grid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
+
+### Position
+
+### Cross browser
 
 ---
 

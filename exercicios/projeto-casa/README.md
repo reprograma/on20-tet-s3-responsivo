@@ -2,9 +2,9 @@
 
 ## Vamos de responsividade! 
 
-- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade dele, utilizando os media query: 
-**Mobile**: @(min-width: 320) and (max-width:480px);
-**Tablet** @(min-width: 600px)
+- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade del, utilizando os media query: 
+**Mobile**: (min-width: 480px);
+**Tablet** (min-width: 600px)
 
 Crie novos arquivos html, css e pasta de imagens dentro da pasta projeto-casa e cópie o código.
 
