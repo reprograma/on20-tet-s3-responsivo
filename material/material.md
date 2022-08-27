@@ -1,7 +1,8 @@
 ### Links úteis para realização do exercício :)
 
-[Introdução a HTML e CSS](https://www.caelum.com.br/apostila-html-css-javascript/introducao-a-html-e-css/)
+[Guia Referência CSS](https://www.w3c.br/divulgacao/guiasreferencia/css2/)
 
+[Propriedades CSS](https://www.todoespacoonline.com/w/2014/04/propriedades-css/)
 
 [Box-model - Entendendo como funciona elementos no HTML](https://tableless.github.io/iniciantes/manual/css/box-model.html)
 
@@ -9,6 +10,12 @@
 
 
 [Devmedia - Utilizando media queries](https://www.devmedia.com.br/utilizando-css-media-queries/27085)
+
+[Dimensionamento em CSS: px vs em vs rem ](https://chiamakaikeanyi.dev/sizing-in-css-px-vs-em-vs-rem/)
+
+[Apostila HTML](https://www.alura.com.br/apostila-html-css-javascript/39CA-propriedades)
+
+[Dimensionamento em CSS: px vs em vs rem](https://chiamakaikeanyi.dev/sizing-in-css-px-vs-em-vs-rem/)
 
 [Efeito cascata, herança e especificidade no CSS](https://tableless.com.br/efeito-cascata-e-especificidade-do-css/)
 

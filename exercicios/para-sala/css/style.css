@@ -182,7 +182,7 @@ h1 {
 }
 
 .imagem--atuacao {
-	width: 50%;
+	width: 55%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #dbffff;
@@ -339,5 +339,95 @@ footer {
 	font-size: 15px bold;
 	margin: 20px 0 0;
 }
+
+/* condição até 480px */
+@media (max-width:480px) {
+	.caixa, .principal{
+		width:auto;
+	}
+
+
+	.caixa img {
+		width: 15%;
+		margin-left: 20px;
+	}
+
+	nav a  {
+		font-size: 12px;
+		font-weight: none;
+		
+	}
+
+	.principal {
+		padding:0;
+
+	}
+
+	.titulo__principal {
+		font-size: 1.8em;
+		color: #b93506;
+		padding: 1em 0;
+	
+	}
+
+	.principal__imagem {
+		width: 30%;
+		margin-left:20px;
+		
+	}
+
+	.principal p {
+		font-size: .8rem
+	}
+
+	.titulo__secundario {
+		font-size:1.5em;
+	}
+
+	.sobre p {
+		font-size: .8rem;
+	}
+
+	.sobre__imagem {
+		width: auto;
+	}
+
+	.sobre img {
+		width: 70%;
+		height: 70%;
+		border-radius: 3rem;
+	
+	}
+
+	.atuacao {
+		padding: 1em 0;
+		background: #105179;
+		}
+	
+
+	.conteudo__atuacao {
+		width: auto;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		
+	}
+	/* ul - elemento pai */
+
+	#servicos__atividades {
+	
+		width:100%;
+		display: flex;
+		justify-content:space-between;
+			
+	}
+
+	/*  li elemento filha */
+	.itens-servicos {
+		display: none;
+	}
+
+
+}
+/* o @media sinaliza que estou chamando o media query */
 
 

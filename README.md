@@ -308,7 +308,7 @@ Uma técnica para conseguirmos ter imagens responsivas é a seguinte:
 }
 ```
 
-- Explicação: Criamos uma classe que podemos aplicar a todas as imagens que estão no html que queremos que fiquem responsivas. As imagens que tiverem essa classe vão ter 100% de largura com altura sempre proporcional a altura. O atributo `max-width: 100%` vai assegurar que essa imagem não estique mais do que o tamanho original dela permite.
+- Explicação: Criamos uma classe que podemos aplicar a todas as imagens que estão no html que queremos que fiquem responsivas. As imagens que tiverem essa classe vão ter 100% de largura com altura sempre proporcional a largura. O atributo `max-width: 100%` vai assegurar que essa imagem não estique mais do que o tamanho original dela permite.
 
 ![max-width](https://www.oficinadanet.com.br/imagens/post/13652/3038367-slide-s-7-9-gifs-that-explain-responsive-design-brilliantly-07max-width-vx-no-max-width-1.gif)
 
@@ -415,7 +415,7 @@ Eles são aplicados graças as media queries, pois seus valores são utilizados 
 ```
 ![breakpoints-comuns](./assets/img/breakpoints-comuns.jpg)
 
-Vamos analisar sua aplicação no [exemplo 😊](./exemplos/exemplo-media-queries.html)
+Vamos analisar sua aplicação no [exemplo 😊](https://github.com/reprograma/On10-TodasEmTech-Responsividade/blob/main/exemplos/exemplo-media-queries.html)
 
 ### Displays
 
@@ -469,7 +469,6 @@ Vamos entender como o flex funciona:
 - [Mobile Test Me](http://mobiletest.me/)
 - [Media queries-breakpoints-projetos-mobile-first](https://blog.apiki.com/media-queries-breakpoints-projetos-mobile-first/)
 - [Display CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-- [Propriedade CSS display](https://www.maujor.com/tutorial/propriedade-css-display.php)
 
 
 ### Estudos em vídeo
