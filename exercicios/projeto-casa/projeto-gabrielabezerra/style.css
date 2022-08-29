@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'PT Serif', serif;
+    text-align: center;
+    
+    background-color: #FAF2F8;
+}
+
+header {
+    background-image: linear-gradient(to right, white, #80127E, white, #80127E, white);
+    padding: 20px;
+}
+
+.frase {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: -150px;
+
+}
+.caixa img {
+    height: 592px;
+    width: 1500px;  
+    
+}
+
+.caixa {
+    height: 592px;
+
+}
+.banner2 img {
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+   align-self: auto;
+   float: left;
+}
+.quem-e-carol {
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 10px;
+    color: #80127E;
+}
+    .quem-e-carol2 {
+        text-align: left;
+        font-size: 19px;
+        text-align: justify;
+                
+    }
+    .quem-e-carol3 {
+        text-align: left;
+        color: #80127E;
+        font-size: 22px;
+        text-align: justify;
+}
+    .quem-e-carol4 {
+        text-align: left;
+        font-size: 19px;
+        text-align: justify;
+    }
+    main {
+        display: flex;
+        justify-content:space-between
+    }
+
+    div.box {
+        width: 600px;
+        display: inline-block;
+        text-align: justify;
+    }
+
+    .frase2 {
+        text-align: left;
+        text-align: justify;
+        
+    }
+    .frase3 {
+        text-align: left;
+        
+    }
+
+    .imagemcarol img {
+        width:25%;
+	    height:420px;
+        border-radius: 5rem;
+    }
