@@ -1,15 +1,10 @@
 # Projetinho 📓  
 
-## Vamos de responsividade! 
+## Mulheres no mundo tech!
 
-- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade del, utilizando os media query: 
-**Mobile**: (min-width: 480px);
-**Tablet** (min-width: 600px)
-
-Crie novos arquivos html, css e pasta de imagens dentro da pasta projeto-casa e cópie o código.
-
-🛎️ Lembre de linkar o css e as imagens no arquivo html!
-
+Explicação do exercício: Você vai criar uma página temática  sobre  mulheres no mundo da tecnologia.
+Escolha uma mulher  que atuou ou atua no mundo da tecnologia, de quem você é fã ou te inspira e crie uma página sobre ela utilizando HTML e CSS.
+Pense na estrutura que você quer criar, faça um rabiscoframe no papel, revise o conteúdo da aula, suas anotações e vá além. Pesquise, consulte a documentação e faça tudo do seu jeito!
 ---
 
 Terminou o projetinho? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
