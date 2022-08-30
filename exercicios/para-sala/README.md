@@ -1,12 +1,10 @@
 # Exercício de Sala 🏫  
 
-## Transformando layouts!
+## Hello, world.
 
--  Vamos praticar transformando um layout  do nosso projeto  desktop em responsivo. 📲
-
-- Crie novos arquivos html, css e a pasta img dentro da pasta "para-sala" e copie o código da aula anterior. 
-  
-- Lembre de linkar o arquivo css e as imagens. 
+- Explicação do exercício: Vocês vão criar a sua primeira página da On 20.
+Utilizem todo o conteúdo aprendido na aula para fazer uma página simples com as principais tags e estiliza-lá no CSS. 
+Vamos de criatividade, colocar a mão na massa, aproveitar para errar sem medo, aprender e compartilhar os aprendizados.
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

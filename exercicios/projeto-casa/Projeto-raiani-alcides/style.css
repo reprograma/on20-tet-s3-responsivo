@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 2em;
+}
+
+h3{
+    color: black;
+    margin-bottom: 12px;
+}
+
+.banner{
+  background-image: url(../img/codigo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+
+}
+
+#foto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -130px;
+    
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+}
+
+.linha span{
+    border: 1px double black;
+    width: 30%;
+
+}
+
+#cards{
+    font-family: 'Work Sans', sans-serif;
+    width: 70%;
+    margin: auto;
+    
+
+}
+
+.card{
+    background: rgb(143, 103, 150);
+    padding: 14px 4px;
+    margin: 5px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+    
+
+}
+
+.card i{
+     padding: 10px;
+     margin: 10px;
+    
+}
+
+.texto{
+    text-align: end;
+    margin: 50px;
+    font-style: italic;
+}
+
+
+@media (min-width: 320px) and (max-width:480px){
+    #cards{
+       width: 100%;
+    }
+    .card{
+        padding: 14px;
+    }
+    .linha{
+        display: none;
+    }
+}
+
+@media (min-width: 600px){
+     .linha{
+        width: 95%;
+        justify-content: space-between;
+     }
+} 
+
+
+
+
+
+
+
