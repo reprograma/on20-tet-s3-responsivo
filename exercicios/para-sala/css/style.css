@@ -1,0 +1,197 @@
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+	background: #4980a2;
+	padding: 20px 0;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+	
+}
+
+#container-primeiro  {
+	max-width: 100%;
+	
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;		
+}
+
+
+nav li {
+	display: inline; 
+	margin: 0 0 0 20px;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fffcfc;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+
+.banner {
+	width:100%;
+}
+
+
+/* Main */
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+
+	text-align: center;
+	font-size: 4em;
+	margin: 0 0 1em;
+	color: #122126;
+	padding-top: .6em;
+}
+
+
+.principal__imagem {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+	
+}
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight: bold;
+	color: #e76739;
+
+}
+
+.principal em {
+	font-style: italic;
+}
+
+/* condição até 480px */
+@media (max-width:480px) {
+	.caixa, .principal{
+		width:auto;
+		
+	}
+
+
+	.caixa img {
+		width: 15%;
+		margin-left: 20px;
+	}
+
+	nav a  {
+		font-size: 12px;
+		font-weight: none;
+		
+	}
+
+	.principal {
+		padding:0;
+
+	}
+
+	.titulo__principal {
+		font-size: 1.8em;
+		color: #b93506;
+		padding: 1em 0;
+	
+	}
+
+	.principal__imagem {
+		width: 30%;
+		margin-left:20px;
+		
+	}
+
+	.principal p {
+		font-size: .8rem
+	}
+
+	.titulo__secundario {
+		font-size:1.5em;
+	}
+
+	.sobre p {
+		font-size: .8rem;
+	}
+
+	.sobre__imagem {
+		width: auto;
+	}
+
+	.sobre img {
+		width: 70%;
+		height: 70%;
+		border-radius: 3rem;
+	
+	}
+
+	.atuacao {
+		padding: 1em 0;
+		background: #105179;
+		}
+	
+
+	.conteudo__atuacao {
+		width: auto;
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		
+	}
+
+/* ul - elemento pai */
+
+	#servicos__atividades {
+	
+		width:100%;
+		display: flex;
+		justify-content:space-between;
+			
+	}
+
+	/*  li elemento filha */
+	.itens-servicos {
+		display: none;
+	}
+
+
+
+}
+/* o @media sinaliza que estou chamando o media query */
+
+
+
+
+     
