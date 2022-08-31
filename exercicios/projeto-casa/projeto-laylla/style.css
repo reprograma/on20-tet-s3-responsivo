@@ -112,104 +112,155 @@ footer {
 
 /* Mobile smartphones*/
 @media screen and (max-width: 480px)  {
-    header {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        padding-left: 2.5em;
-        padding-right: 2.5em;
-    }
+header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
 
-    header h1 {
-        font-size: 0.7em;
-    }
+header h1 {
+    font-size: 0.7em;
+}
 
-    form {
-        padding: 0.1em;
-    }
+form {
+    padding: 0.1em;
+}
 
-    form input, form button {
-        font-size: 0.8em;
-    }
+form input, form button {
+    font-size: 0.8em;
+}
 
-    .texto-inicial, .texto-final {
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 0.8em;
-    }
+.texto-inicial, .texto-final {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.8em;
+}
 
-    h2 {
-        font-size: 1.2em;
-        padding-top: 0.5em;
-    }
+h2 {
+    font-size: 1.2em;
+    padding-top: 0.5em;
+}
 
-    .sua-historia {
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 0.8em;
-    }
+.sua-historia {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.8em;
+}
 
-    .img-adalovelace {
-        height: 10%;
-    }
+.img-adalovelace {
+    height: 10%;
+}
 
-    .video {
-        padding-top: 1.0em;
-    }
+.video {
+    padding-top: 1.0em;
+}
 
-    footer {
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-    }
+footer {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
 }
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 600px) {
-    header {
-        padding-top: 1.0em;
-        padding-bottom: 1.0em;
-        padding-left: 2.7em;
-        padding-right: 2.7em;
-    }
+header {
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+}
 
-    header h1 {
-        font-size: 0.9em;
-    }
+header h1 {
+    font-size: 0.9em;
+}
 
-    form {
-        padding: 0.1em;
-    }
+form {
+    padding: 0.1em;
+}
 
-    form input, form button {
-        font-size: 0.8em;
-    }
+form input, form button {
+    font-size: 0.8em;
+}
 
-    .texto-inicial, .texto-final {
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 0.8em;
-    }
+.texto-inicial, .texto-final {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.8em;
+}
 
-    h2 {
-        font-size: 1.4em;
-        padding-top: 0.5em;
-    }
+h2 {
+    font-size: 1.4em;
+    padding-top: 0.5em;
+}
 
-    .sua-historia {
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 0.8em;
-    }
+.sua-historia {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.8em;
+}
 
-    .img-adalovelace {
-        height: 10%;
-    }
+.img-adalovelace {
+    height: 10%;
+}
 
-    .video {
-        padding-top: 1.0em;
-    }
+.video {
+    padding-top: 1.0em;
+}
 
-    footer {
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-    }
+footer {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+}
+/* Tablet em modo retrato e tablet maiores */
+@media (min-width: 601px) and (max-width: 1025px) {
+header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+        
+header h1 {
+    font-size: 0.9em;
+}
+        
+form {
+    padding: 0.1em;
+}
+        
+form input, form button {
+    font-size: 0.8em;
+}
+        
+.texto-inicial, .texto-final {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.9em;
+}
+        
+h2 {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+        
+.sua-historia {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 0.9em;
+}
+        
+.img-adalovelace {
+    height: 10%;
+}
+        
+.video {
+    padding-top: 1.0em;
+}
+        
+footer {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
 }
