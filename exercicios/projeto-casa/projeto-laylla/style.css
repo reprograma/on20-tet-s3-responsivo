@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 100%;
     box-sizing: border-box;
     list-style: none;
 }
 
 body {
+    height: 100vh;
     margin: 0px;
     padding: 0px;
     border: 0;
@@ -14,6 +14,7 @@ body {
     background-color: #ffffff;
 }
 
+/* Notebook */
 .banner {
     width: 100%;
 }
@@ -23,34 +24,37 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 400px;
-    padding-right: 200px;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 12.5em;
+    padding-right: 12.5em;
     background-color: #ebf26c; 
 }
 
 header h1 {
     color: #000000;
-    font-size: 30px;
+    font-size: 1.87em;
     text-shadow: 0.05em 0.05em 0.8em #ffffff
 }
 
 form {
-    border:1px solid whitesmoke;
+    border: 1px solid whitesmoke;
     border-radius: 0.3em;
     padding: 0.3em;
 }
+
 form input, form button {
     font-size: 1em;
     border-radius: 0.2em;
     border: none;
 }
+
 form button {
     cursor: pointer;
     background:none;
     color: whitesmoke;
 }
+
 form button :hover {
     background-color: whitesmoke;
     color:#e4e997 ;
@@ -58,9 +62,9 @@ form button :hover {
 
 .texto-inicial, .texto-final {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 1.3rem;
+    padding-left: 9.37em;
+    padding-right: 9.37em;
+    font-size: 1.3em;
     text-align: justify;
 }
 
@@ -68,23 +72,23 @@ h2 {
     text-align: center;
     font-size: 2em;
     color: #ebf26c;
-    padding-top: 30px;
+    padding-top: 1.87em;
     text-shadow: 0.05em 0.05em 0.2em #000000
 }
 
 .sua-historia {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 1.3rem;
+    padding-left: 9.37em;
+    padding-right: 9.37em;
+    font-size: 1.3em;
     text-align: justify;
 }
 
 .sua-historia p {
-    margin-right: 20px;
+    margin-right: 1.25em;
 }
 
-.adalovelace {
+.img-adalovelace {
     width: 50%;
     opacity: 1;
     transition: 400ms;
@@ -93,23 +97,119 @@ h2 {
 
 .video {
     display: flex;
-    padding-top: 40px;
+    padding-top: 2.5em;
     justify-content: center;
     background: linear-gradient(#FEFEFE, #ecf366);
 }
+
 footer {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
     justify-content: center;
     background-color: #ebf26c;
 }
 
-@media screen and (min-width: 480px)  {
+/* Mobile smartphones*/
+@media screen and (max-width: 480px)  {
     header {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }   
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+
+    header h1 {
+        font-size: 0.7em;
+    }
+
+    form {
+        padding: 0.1em;
+    }
+
+    form input, form button {
+        font-size: 0.8em;
+    }
+
+    .texto-inicial, .texto-final {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        padding-top: 0.5em;
+    }
+
+    .sua-historia {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 0.8em;
+    }
+
+    .img-adalovelace {
+        height: 10%;
+    }
+
+    .video {
+        padding-top: 1.0em;
+    }
+
+    footer {
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 600px) {
+    header {
+        padding-top: 1.0em;
+        padding-bottom: 1.0em;
+        padding-left: 2.7em;
+        padding-right: 2.7em;
+    }
+
+    header h1 {
+        font-size: 0.9em;
+    }
+
+    form {
+        padding: 0.1em;
+    }
+
+    form input, form button {
+        font-size: 0.8em;
+    }
+
+    .texto-inicial, .texto-final {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        padding-top: 0.5em;
+    }
+
+    .sua-historia {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 0.8em;
+    }
+
+    .img-adalovelace {
+        height: 10%;
+    }
+
+    .video {
+        padding-top: 1.0em;
+    }
+
+    footer {
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+    }
 }
