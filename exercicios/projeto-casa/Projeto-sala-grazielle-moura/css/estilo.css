@@ -70,6 +70,7 @@ html, body {
     grid-template-columns: repeat(2,1fr);
 }
 
+
 .p {
     display: block;
     margin: block start 1px;
