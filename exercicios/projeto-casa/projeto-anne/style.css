@@ -1,0 +1,125 @@
+header{
+width: 100%;
+margin: 0;
+font-size: 26px;
+background-color: rgb(247, 170, 217);
+padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+    justify-content: space-between;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d1829;
+    box-shadow: 1px 4px 4px 4px #000000;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+nav a:hover {
+	color: #628588;
+	text-decoration: underline;
+}
+
+ul {
+    padding: 15px;
+    margin-top: -7px;
+    margin-left: -10px;
+    margin-right: 0;
+    color: white;
+}
+
+.img {
+    text-align: left;
+    padding: 0 20px;
+}
+
+
+.logo {
+    display: inline;
+    width: 220px;
+    border-radius: 500px;
+    margin-top: 25px;
+    box-shadow: 1px 5px 15px 5px #000000; 
+}
+
+body {
+    background-color: rgb(187, 187, 190);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;  
+}
+
+h2 {
+
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.banner {
+    width: 220px;
+    box-shadow: 1px 5px 15px 5px #000000;
+}
+
+.videogame {
+    width: 220px;
+    border-radius: 500px;
+    box-shadow: 1px 5px 15px 5px #000000; 
+}
+
+.container {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav li {
+        margin: 0 0 0 10px;
+        padding: 10px;
+    }
+    
+    nav a {
+        padding: 0 10px;
+    }
+    .container {
+		width:auto;
+        margin: auto;
+	}
+
+}
+
+@media (max-width: 480px) {
+    .img {
+        text-align: center;
+    }
+}
