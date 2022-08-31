@@ -344,11 +344,15 @@ footer {
 	.caixa, .principal{
 		width:auto;
 	}
-
-
+	
+	.caixa {
+		position: inherit;
+	}
+	
 	.caixa img {
-		width: 15%;
-		margin-left: 20px;
+		width: 4em;
+		margin-left: 3em;
+		margin-right: 3em;
 	}
 
 	nav {
@@ -356,7 +360,7 @@ footer {
 	}
 
 	nav a  {
-		font-size: 12px;
+		font-size: 15px;
 		font-weight: none;
 			
 	}
@@ -472,7 +476,7 @@ footer {
 	}
 
 	nav a  {
-		font-size: 12px;
+		font-size: 15px;
 		font-weight: none;
 			
 	}
