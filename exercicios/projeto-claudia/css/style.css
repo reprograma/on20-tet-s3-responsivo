@@ -180,8 +180,111 @@ footer{
 
 /*Expansividade*/
 
-@media(min-width:480px) and (max-width:600px){
+@media (max-width:479px){
     .cabecalho img{
+       width: 100%;
+       position: static;
+   }
+
+   .caixa-citacao{
+       display:block;
+       margin: 0 1em 0 1em;
+   }
+   
+   .texto{
+    font-size: 2em;
+   }
+
+   #fotoCarol01{
+       justify-content: center;
+       position:unset;
+       margin: 0 5% 0 5%; 
+       padding: 0;
+   }
+
+   .texto-citacao{
+       width: 100%;
+       position: relative;
+       padding: 0%;
+       margin: 5% 0 0 0;
+   }
+
+   .jogos p{
+       color: #fafaff;
+   }
+
+   th{
+       background-color: #fafaff;
+   }
+   .jogos-box{
+       overflow-x: scroll;
+   }
+
+   #jogo01, #jogo02{
+       width: 100%;
+   }
+
+   #fotoCarol01:hover{
+       transition: 400ms;
+       box-shadow: 10px 10px 10px 10px #720e07;
+       padding: 0;
+   }
+}
+
+@media (min-width:480px) and (max-width:600px){
+  
+    .cabecalho img{
+        width: 100%;
+    }
+
+    .caixa-citacao{
+        display:block;
+        margin: 0 1em 0 1em;
+    }
+    
+    .texto{
+        font-size: 2em;
+    }
+
+    #fotoCarol01{
+        justify-content: center;
+        position:unset;
+        margin: 0 5% 0 5%; 
+        padding: 0;
+    }
+    
+    #fotoCarol01:hover{
+        transition: 400ms;
+        box-shadow: 10px 10px 10px 10px #720e07;
+        padding: 0;
+    }
+
+    .texto-citacao{
+        width: 100%;
+        position: relative;
+        padding: 0%;
+        margin: 5% 0 0 0;
+    }
+
+    .jogos p{
+        color: #fafaff;
+    }
+
+    th{
+        background-color: #fafaff;
+    }
+    .jogos-box{
+        overflow-x: scroll;
+    }
+
+    #jogo01, #jogo02{
+        width: 100%;
+    } 
+
+}
+
+@media (min-width:600px) and (max-width:1000px){
+     .cabecalho img{
         width: 100%;
         position: static;
     }
@@ -190,21 +293,24 @@ footer{
         display:block;
         margin: 0 1em 0 1em;
     }
+
+    .texto{
+        font-size: 2em;
+    }
     
 
     #fotoCarol01{
         justify-content: center;
         position:unset;
-        margin: 0 50% 0 0; /*cima direito baixo esquerdo*/
-        padding: 2em 2em;
+        margin: 0 5% 0 5%; 
+        padding: 0;
     }
 
     .texto-citacao{
         width: 100%;
-        padding: 0%;
-        text-align: center;
         position: relative;
-        margin: 25px 10px 0 10px;
+        padding: 0%;
+        margin: 5% 0 0 0;
     }
 
     .jogos p{
@@ -229,3 +335,4 @@ footer{
     }
 }
 
+/*cima direito baixo esquerdo*/
