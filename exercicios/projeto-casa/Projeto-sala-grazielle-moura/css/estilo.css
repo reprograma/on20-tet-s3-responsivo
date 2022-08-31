@@ -1,0 +1,98 @@
+.bannerprincipalgrace img {
+    width: 100%;
+}
+
+.btn-grace {
+    background-color: rgb(252, 240, 11);
+    color:black;
+    text-align: center;
+    font: size 1rem;
+    padding: 1rem 1rem;
+    width: 200px;
+    display:block;
+    margin: 0 auto;
+}
+
+.bannerfinal img {
+     width: 100%;
+     padding:0;
+     margin:0;
+
+}
+
+#botaograce {
+    text-align: center;
+    margin: 100px 0;
+    text-decoration: none;
+}
+
+.titulogracehopper {
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    text-align: center;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(28, 25, 25);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+   
+
+.wrapper {
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between; 
+
+}
+ 
+@media (max-width: 480px) {
+    ul {
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .box1, .box2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.box1, .box2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(6, 87, 84);
+    grid-template-columns: repeat(2,1fr);
+}
+
+.p {
+    display: block;
+    margin: block start 1px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+main {
+    margin: 16px;
+}
+
+p {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+footer p {
+    text-align: center;
+    height:50px;
+    color: white;
+}
