@@ -205,10 +205,10 @@ _Quais são:_
 
   Entretanto, o que acontece quando se tem um elemento com valor **em** dentro de outro elemento com valor **em** ?
 
-HEAD
+
 ![unidade-em-aninhada](./assets/img/unidade-em-aninhada.jpg)
 
-![unidade-em-aninhada](https://codepen.io/raissamartinsmenezes/pen/OJJXdzQ)
+Referência[unidade-em-aninhada](https://codepen.io/raissamartinsmenezes/pen/OJJXdzQ)
 
 
 [Calculadora online: px para em](http://pxtoem.com/)

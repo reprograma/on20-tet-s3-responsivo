@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto On20</title>
-    <link rel="stylesheet" href="./css/reset.css">
-
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -17,20 +17,23 @@
 <body>
     <header>
         <!-- <div class="caixa"> -->
-            <img class="caixa-imagem" src="./img/logo.png" alt="Logo Mulheres e Tecnologia">
-       
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="caixa">
+                <img class="caixa-imagem" src="./img/logo.png" alt="Logo Mulheres e Tecnologia">
+                <nav class="navegador">
+                    <ul class="lista__navegador">
+                       <li class="itens-navegador"><a href="./index.html">Home</a></li>
+                       <li class="itens-navegador"><a href="#servicos">Serviços</a></li>
+                       <li class="itens-navegador"><a href="contato.html">Contato</a></li>       
+                     </ul>
+                 </nav>
+            </div>
+           
         <!-- </div> -->
     </header>
 
     <main>
         <form class="formulario">
+            <legend class="titulo__form"> Deixe aqui a sua mensagem</legend>
             <label for="nomesobrenome">Nome e Sobrenome</label>
             <input type="text" id="nomesobrenome" class="input-padrao" required></input>
             <br>
@@ -48,8 +51,8 @@
                 placeholder="Escreva aqui a sua mensagem"></textarea>
             <br>
 
-            <fieldset>
-                <legend>Como prefere o nosso contato?</legend>
+            <fieldset class="">
+                <legend class="titulo__contato">Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail
                 </label>
 
@@ -62,8 +65,8 @@
                 </label>
             </fieldset>
 
-            <fieldset>
-                <legend>Qual horário prefere ser atendido?</legend>
+            <fieldset class="horario">
+                <legend class="titulo__horario">Qual horário prefere ser atendido?</legend>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
@@ -71,8 +74,8 @@
                 </select>
             </fieldset>
 
-            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</input>
-
+            <label class="checkbox">
+                <input class="checkbox__caixa"type="checkbox">Gostaria de receber nossas novidades por e-mail?</input>
                 <input type="submit" value="Enviar formulário" class="enviar"></input>
                 <!-- <button type="submit" value="">Enviar formulário</button> -->
 
@@ -88,8 +91,7 @@
         <a href="https://github.com/jaquelinedealmeida" target="_blank">
             <img class="rodape-imagem" src="./img/icons8-github-64.png" alt="Icone Github">
         </a>
-
-        <p class="copyright">&copy; Copyrigth Jaqueline de Almeida - Todas em Tech - reprograma - 2022</p>
+        <p class="copyright">&copy; Copyrigth Jaqueline de Almeida </br> Todas em Tech - reprograma - 2022</p>
     </footer>
 
 

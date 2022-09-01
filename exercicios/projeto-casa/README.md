@@ -2,7 +2,7 @@
 
 ## Vamos de responsividade! 
 
-- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade del, utilizando os media query: 
+- Explicação do projeto: Você vai dá continuidade ao seu projeto da semana passada fazendo a responsividade dele, utilizando os medias queries: 
 **Mobile**: (max-width: 480px);
 **Tablet** (min-width: 600px)
 
