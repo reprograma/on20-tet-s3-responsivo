@@ -199,7 +199,10 @@ h1 {
 
 /* estilizando id */
 #servicos__atividades {
-	width: 940px;
+	/* width: 940px; */
+	width:100%;
+	display: flex;
+	justify-content:space-between;
 	margin: 0 auto;
 	padding: 50px 0;
 	
@@ -208,7 +211,7 @@ h1 {
 /* estilizando class */
 
 .itens-servicos {
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
@@ -405,29 +408,31 @@ footer {
 		}
 	
 
+
 	.conteudo__atuacao {
 		width: auto;
 		margin-top: 2.5rem;
 		margin-bottom: 2.5rem;
 		
 	}
-	/* ul - elemento pai */
 
 	#servicos__atividades {
-	
 		width:100%;
 		display: flex;
 		justify-content:space-between;
-			
+
 	}
 
-	/*  li elemento filha */
-	.itens-servicos {
-		display: none;
+	.itens-servico {
+		text-align: center;
+		width: 30%;
+		vertical-align: top;
+		margin: 0 1.5%;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		border: 2px solid #f9f7f7;
+		border-radius: 10px;
 	}
 
 
 }
-/* o @media sinaliza que estou chamando o media query */
-
-
