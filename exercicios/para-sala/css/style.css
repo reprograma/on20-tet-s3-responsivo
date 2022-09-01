@@ -456,15 +456,15 @@ footer {
 	}
 }
 
-@media (min-width:481px) and (max-width:600px) { 
+@media (min-width:600px) {
 	.caixa, .principal{
 		width:auto;
 	}
-
-    .caixa {
+	
+	.caixa {
 		position: inherit;
 	}
-
+	
 	.caixa img {
 		width: 4em;
 		margin-left: 3em;
