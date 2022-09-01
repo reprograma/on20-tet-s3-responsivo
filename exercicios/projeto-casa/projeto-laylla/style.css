@@ -111,7 +111,7 @@ footer {
 }
 
 /* Mobile smartphones*/
-@media screen and (max-width: 480px)  {
+@media (max-width: 480px)  {
 header {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
