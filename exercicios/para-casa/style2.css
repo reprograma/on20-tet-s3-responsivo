@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+
+    header {
+        background-repeat: no-repeat;
+        background-size:contain;
+        padding-left: 7%;
+        padding-bottom: 50px;
+        height: 205px;
+        padding-right: 1.5%;
+    }
+
+    h3 {
+        font-size: 17.5px;
+        text-shadow: #4B4B4B 0.1em 0.1em 0.5em;
+    }
+
+    .subtitle {
+    width: 555px;
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: #4B4B4B 0.1em 0.1em 0.2em;
+    
+    }
+
+    .container1 {
+        display: flex;
+        width: 500px;
+        text-align: justify;
+        font-size: 18px;                   
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: row;
+              
+    }
+
+    div .foto {
+        border-radius: 30px;
+        max-width: 250px;
+        max-height: 250px;
+        padding: 12px;       
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        width: 485px;
+        font-size: 18px;
+        row-gap: 15px;  
+    }
+
+    .container4 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+   
+   
+}

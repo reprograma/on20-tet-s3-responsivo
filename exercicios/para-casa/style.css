@@ -1,0 +1,87 @@
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    background-color: #F23005;
+    color: whitesmoke;
+    font-family: 'Mukta-ExtraLight', sans-serif;
+    }
+    
+    header {
+        background-image: url(./img/Melinda\ Gates\ Portada.jpeg);
+        padding: 110px;
+        text-align: left;
+        
+    }
+
+    h1 {
+        font-family: 'Pacifico', sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+        color: white;
+        text-shadow: #4B4B4B 0.1em 0.1em 0.2em;
+        
+    }
+
+    h3 {
+        color: white;
+        text-shadow: #4B4B4B 0.1em 0.1em 0.2em;
+    }
+
+    .subtitle {
+        margin-top: 50px;
+        margin-left: 80px;
+        font-family: 'Pacifico', sans-serif;
+        font-weight: 200;
+    }
+    
+    .container1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: left;
+        grid-template-rows: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+                      
+    }
+    
+    .container2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    div .foto {
+        max-width: 320px;
+        max-height: 320px;
+        border-radius: 8px;
+                         
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+        text-align: justify;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+        
+    }
+
+    .container4 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 33% 33% 33%;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    footer {
+        background-color:#BF754B;
+        padding: 20px;
+        text-align: center;
+    }
