@@ -1,0 +1,179 @@
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#00FF7F,#FF69B4,#D8BFD8,#FF69B4,#00FF7F);   
+}
+
+.banner-container{
+    max-width: 1500px;
+    margin: 10rem auto 5px;
+    background-color: #EE30A7;
+    text-align: center; 
+    font-size: 4rem; 
+    
+}
+
+.banner-titulo{
+    color: white;
+}
+
+.conteudo{
+    display: table;
+    margin: 2rem opx;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+    margin-left: 10px;
+}
+
+  img {
+    max-width:800px;
+    max-height:800px;
+    
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 350px;
+    margin-top: -20px;
+    font-size: 2.0rem;
+    margin-left: 50px;
+    margin: 7rem;
+    vertical-align:auto;
+    text-indent: 3px;
+    
+}
+ 
+
+.depoimento {
+    display: table-cell;
+    float: left;
+    width: 350px;
+    margin-top: -20px;
+    font-size: 2.0rem;
+    margin-left: 10px;
+    margin: 7rem;
+    vertical-align:auto;
+    text-indent: 3px;
+}
+
+.redes-sociais__div{
+    margin: 5rem;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.redes-sociais__item{
+    background-color: #EE30A7;
+    color: white;
+    padding: 2rem;
+    margin: 115px;
+    border-radius: 200px;
+    margin-top: -50px;
+    
+}
+
+.redes-sociais__img{
+    margin-bottom: 0.5rem;
+}
+
+.Copyrigth {
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.banner-container{
+margin-top: 30px; 
+align-items: center;
+max-width: 100%;
+margin-left: 5px;
+padding: 0;
+margin: 0;
+
+     
+}
+
+.banner-titulo{
+padding: 1rem;
+font-size: 2.7rem;
+}
+
+.conteudo {
+margin: 1rem;
+
+}
+
+.imagem {
+max-width: 100%;
+margin-left: 5px;
+align-items: center;
+padding: 0;
+margin: 0;
+}   
+
+img {
+max-width:93%;
+max-height:100%;
+display: block;
+}
+
+.texto {
+margin-bottom: 0;
+margin-top: 10px;
+font-size: 2rem;
+
+}
+
+.depoimento {
+margin-top: 10px;
+}
+     
+.redes-sociais__div {
+margin-top: -30px;
+flex-direction:column;
+align-items: center;
+display: flex;
+justify-content: space-between;
+border-radius: 200px;
+
+    
+}
+
+.redes-sociais__item {
+display: flex;
+align-items: center;
+width: auto;
+flex-direction: column;
+}
+     
+.Copyrigth {
+font-size: 1.2rem;
+text-align: center;
+margin-top: -130px;
+}
+     
+}
+       
+
+    
+    
