@@ -1,16 +1,31 @@
-body {
+* {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family:'PT Serif', serif;
+        
+}
+
+body {
     text-align: center;
-    
     background-color: #FAF2F8;
+
 }
 
 header {
     background-image: linear-gradient(to right, white, #80127E, white, #80127E, white);
-    padding: 20px;
+    /* padding: 20px; */
+    width: 100%;
+    height: 565px;
+
+}
+
+.caixa img {
+    height: 592px;
+    /* width: 1500px;   */
+    margin-top: 170px;
+    
 }
 
 .frase {
@@ -24,32 +39,17 @@ header {
     text-transform: uppercase;
     position: relative;
     top: -150px;
-
-}
-.caixa img {
-    height: 592px;
-    width: 1500px;  
-    
 }
 
-.caixa {
-    height: 592px;
-
-}
 .banner2 img {
     height: 400px;
     width: 400px;
     margin: 50px;
-   align-self: auto;
-   float: left;
+    align-self: auto;
+    float: left;
 }
-.quem-e-carol {
-    text-align: left;
-    margin-top: 350px;
-    margin-left: 10px;
-    color: #80127E;
-}
-    .quem-e-carol2 {
+
+    /* .quem-e-carol2 {
         text-align: left;
         font-size: 19px;
         text-align: justify;
@@ -65,16 +65,199 @@ header {
         text-align: left;
         font-size: 19px;
         text-align: justify;
-    }
-    main {
-        display: flex;
-        justify-content:space-between
+    } */
+    .main {
+        width: 80%;
+        margin: auto;
+        
     }
 
-    div.box {
+    .titulo {
+        margin-top: 70px;
+        margin-left: 10px;
+        color: #80127E;
+        text-align: center;
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    .paragrafo {
+        font-size: 1.8rem;
+        text-align: justify;
+
+    }
+
+    .section-historia {
+        margin: auto;
+               
+    }
+
+    .imagem-carol {
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    
+    .banner2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-tarefas {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .caixa-imagem-mulheres {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0 80px 0;
+        
+    }
+
+    .legenda-mulheres {
+        font-size: 1.5rem;
+        text-align: justify;
+        width: 600px;
+        
+    }
+
+    .imagem-mulheres {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+                
+    }
+
+    .foto-final {
+        width: 100%;
+    }
+
+    .footer {
+        background-color: #80127E;
+        background-image: linear-gradient(to right, white, #80127E, white, #80127E, white);
+    }
+
+    .paragrafo-footer {
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    @media (min-width: 600px) and (max-width: 1040px) {
+        header {
+            background-image: none;
+            margin-bottom: -300px;
+        }
+
+
+        .caixa-header img {
+            width: 100%;
+            
+        }
+
+        .frase {
+            font-size: 12px;
+            font-weight: none;
+            padding-right: auto;
+            top: -75px;
+            
+        }
+    }
+        .caixa img {
+            width: 75%;
+            margin-left: 20px;
+        }
+
+        .banner2 {
+           display: flex;
+           flex-direction: column;
+           padding: 0;
+        }
+
+        .section-tarefas, .section-tecnologia, .caixa-imagem-mulheres {
+           display: flex;
+           flex-direction: column;
+           padding: 0;
+        }
+
+        .titulo {
+            font-size: 1.8em;
+            padding: 1em 0;
+        }
+
+        .imagem-carol {
+            width: 100px;
+            margin-left: 10px;
+            margin: 30px auto;
+        }
+
+        @media (max-width: 480px) {
+            header {
+                background-image: none;
+                margin-bottom: -300px;
+            }
+
+                
+            .caixa-header img {
+                width: 100%;
+                
+            }
+    
+            .frase {
+                font-size: 12px;
+                font-weight: none;
+                padding-right: auto;
+                top: -75px;
+                
+            }
+        }
+            .caixa img {
+                width: 55%;
+                margin-left: 20px;
+            }
+    
+            .banner2 {
+               display: flex;
+               flex-direction: column;
+               padding: 0;
+            }
+
+            .banner2 img {
+                height: 300px;
+                width: 300px;
+            }
+    
+            .section-tarefas, .section-tecnologia, .caixa-imagem-mulheres {
+               display: flex;
+               flex-direction: column;
+               padding: 0;
+            }
+    
+            .titulo {
+                font-size: 1.8em;
+                padding: 1em 0;
+            }
+    
+            .imagem-carol {
+                width: 100%;
+                margin-left:10px;
+            }
+
+            .foto-final, .legenda-mulheres {
+                width: 80%;
+            }
+
+
+    /* div.box {
         width: 600px;
         display: inline-block;
         text-align: justify;
+        
     }
 
     .frase2 {
@@ -91,4 +274,5 @@ header {
         width:25%;
 	    height:420px;
         border-radius: 5rem;
-    }
+    } */
+    
