@@ -1,0 +1,338 @@
+/*CABEÇALHO*/
+header{
+    text-align: center;
+}
+
+.cabecalho img{
+    width: 100%;  
+}
+
+/*PÁGINA*/
+body {
+    background: linear-gradient(to top,#000000,#061700, #137547, #eef3ed, #FFFFFF);
+    background-color: ;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fafaff;
+    /* padding: 10px 10px; */
+    
+}
+
+
+main{
+    /* flex-wrap: wrap; */
+    margin: 5px 30px 5px 30px;
+    padding: 5px;
+
+}
+
+.caixa{
+    display:block;
+    justify-content: center;
+    position:unset;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    padding: 2em 2em;
+}
+
+.titulo{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2em;
+    color: #720e07;
+    padding: auto 5em;
+}
+
+.texto{
+    font-size: 20px;
+    color: #061700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0.2em;
+    text-decoration:none;
+    padding: 0.2em 0.1em;
+}
+
+em{
+    font-weight: bold;
+}
+
+/*VIDEO*/
+.video{
+    align-content: center;
+    padding: 2px 2px;
+}
+
+.video iframe{
+    margin: 0 auto;
+}
+
+
+/*CITAÇÃO*/
+#fotoCarol01{
+    height: 16em;
+    border-radius: 50%;
+    display:inline-flex;
+    float: inline-start; /*flutuar - alinha a esquerda*/
+}
+
+#fotoCarol01:hover{
+    transition: 400ms;
+    box-shadow: 0px 10px 20px 10px#720e07;
+}
+
+.texto-citacao{
+    width: 50%;
+    font-size: 2em;
+    color: #720e07;
+    position: relative;
+    margin-top: 1em;
+    padding-left: 2em;
+}
+
+.texto-citacao:hover{
+    transition: 400ms;
+    color: #eef3ed;
+}
+
+.caixa-citacao{
+    /* margin: 25px 0; */
+    padding: 1em 1em;
+    display: flex;
+    margin-left: 10em;
+}
+
+/*JOGOS*/
+table{
+    margin: 10px 20% 10px 20%; /*cima direito baixo esquerdo*/
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 10px 4px;
+}
+
+th:hover{
+    background-color: #720e07;
+}
+
+.jogos{
+    font-size: 20px;
+    color: #061700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0.2em;
+    text-decoration:none;
+    padding: 0.2em 0.1em;
+}
+
+.jogos-imagens{
+    margin: 10px 20% 10px 20%;
+    display: inline-flexbox;
+
+}
+
+#jogo01{
+    width: 40%;
+    padding: 10px 5px;
+}
+
+#jogo02{
+    width: 40%;
+    padding: 10px 5px;
+    
+}
+
+/*REFERÊNCIAS*/
+a{
+    text-decoration: none;
+    margin: 0 10px 0;
+}
+.referencias{
+    color: #fafaff;
+    width: 100%;
+    text-align: left;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.texto a{
+    color: #fafaff;
+
+}
+
+.referencias li:hover > a{
+  color: #720e07;
+
+}
+
+.texto a::before{
+    content: "🕹";
+}
+
+/*RODAPÉ*/
+footer{
+    background-color: #000000;
+    color: #720e07;
+    box-sizing:border-box;
+    text-align: center;
+    padding: 5% 0 5%;
+
+}
+
+
+/*Expansividade*/
+
+@media (max-width:479px){
+    .cabecalho img{
+       width: 100%;
+       position: static;
+   }
+
+   .caixa-citacao{
+       display:block;
+       margin: 0 1em 0 1em;
+   }
+   
+   .texto{
+    font-size: 2em;
+   }
+
+   #fotoCarol01{
+       justify-content: center;
+       position:unset;
+       margin: 0 5% 0 5%; 
+       padding: 0;
+   }
+
+   .texto-citacao{
+       width: 100%;
+       position: relative;
+       padding: 0%;
+       margin: 5% 0 0 0;
+   }
+
+   .jogos p{
+       color: #fafaff;
+   }
+
+   th{
+       background-color: #fafaff;
+   }
+   .jogos-box{
+       overflow-x: scroll;
+   }
+
+   #jogo01, #jogo02{
+       width: 100%;
+   }
+
+   #fotoCarol01:hover{
+       transition: 400ms;
+       box-shadow: 10px 10px 10px 10px #720e07;
+       padding: 0;
+   }
+}
+
+@media (min-width:480px) and (max-width:600px){
+  
+    .cabecalho img{
+        width: 100%;
+    }
+
+    .caixa-citacao{
+        display:block;
+        margin: 0 1em 0 1em;
+    }
+    
+    .texto{
+        font-size: 2em;
+    }
+
+    #fotoCarol01{
+        justify-content: center;
+        position:unset;
+        margin: 0 5% 0 5%; 
+        padding: 0;
+    }
+    
+    #fotoCarol01:hover{
+        transition: 400ms;
+        box-shadow: 10px 10px 10px 10px #720e07;
+        padding: 0;
+    }
+
+    .texto-citacao{
+        width: 100%;
+        position: relative;
+        padding: 0%;
+        margin: 5% 0 0 0;
+    }
+
+    .jogos p{
+        color: #fafaff;
+    }
+
+    th{
+        background-color: #fafaff;
+    }
+    .jogos-box{
+        overflow-x: scroll;
+    }
+
+    #jogo01, #jogo02{
+        width: 100%;
+    } 
+
+}
+
+@media (min-width:600px) and (max-width:1000px){
+     .cabecalho img{
+        width: 100%;
+        position: static;
+    }
+
+    .caixa-citacao{
+        display:block;
+        margin: 0 1em 0 1em;
+    }
+
+    .texto{
+        font-size: 2em;
+    }
+    
+
+    #fotoCarol01{
+        justify-content: center;
+        position:unset;
+        margin: 0 5% 0 5%; 
+        padding: 0;
+    }
+
+    .texto-citacao{
+        width: 100%;
+        position: relative;
+        padding: 0%;
+        margin: 5% 0 0 0;
+    }
+
+    .jogos p{
+        color: #fafaff;
+    }
+
+    th{
+        background-color: #fafaff;
+    }
+    .jogos-box{
+        overflow-x: scroll;
+    }
+
+    #jogo01, #jogo02{
+        width: 100%;
+    }
+
+    #fotoCarol01:hover{
+        transition: 400ms;
+        box-shadow: 10px 10px 10px 10px #720e07;
+        padding: 0;
+    }
+}
+
+/*cima direito baixo esquerdo*/
