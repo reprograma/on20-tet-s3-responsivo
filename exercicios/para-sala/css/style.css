@@ -339,7 +339,7 @@ footer {
 	font-size: 15px bold;
 	margin: 20px 0 0;
 }
-/* condição até 480px */
+/* condição até 480px, mobile */
 @media (max-width:480px) {
 	.caixa, .principal{
 		width:auto;
@@ -455,7 +455,7 @@ footer {
 		display: none;
 	}
 }
-
+/* condição minimo 600px, tablet */
 @media (min-width:600px) {
 	.caixa, .principal{
 		width:auto;

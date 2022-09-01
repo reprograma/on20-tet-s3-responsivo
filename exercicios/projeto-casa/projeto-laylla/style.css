@@ -148,8 +148,8 @@ h2 {
     font-size: 0.8em;
 }
 
-.img-adalovelace {
-    height: 10%;
+.adalovelace {
+    display: none;
 }
 
 .video {
@@ -200,8 +200,8 @@ h2 {
     font-size: 0.9em;
 }
             
-.img-adalovelace {
-    height: 10%;
+.adalovelace {
+    display: none;
 }
             
 .video {
