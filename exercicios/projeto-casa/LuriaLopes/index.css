@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: rosybrown;
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a{
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+    margin: 5px;
+}
+
+.principal{
+    height:100%;
+    display:flex;
+    background-color: rosybrown;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:100%;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #cfaab9;
+    font-weight:700;
+    height:45px;
+}
+
+.profissao{
+    font-size: 20px;
+    line-height: 32px;
+    color:#adaba7;
+
+}
+
+.article-lista{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-bottom: 30px
+}
+
+.topico-principal{
+    font-size: 36px ;
+    color:#a0783c;
+}
+
+.lista-item{
+    padding: 32px;
+}
+
+.lista-item ul li{
+    margin-bottom: 32px;
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color:rosybrown;
+    font-weight: 700;
+}
+
+.lista-local{
+    font-size:18px;
+    color:#a341b6;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+    color:#828282;
+    font-weight:300;
+}
+
+.wrapper-portfolio{
+    background-color:rgba(250, 231, 181, 0.667);
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista{
+    font-size: 18px;
+    color:#918d85;
+    font-weight: 500;
+}
+
+.footer{
+    background-color:rosybrown;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color:white;
+}
+
+.lista-footer li{
+    color:#FFF;
+    font-weight: 700 ;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.desenho{
+    width: 100%;
+    height: auto;
+}
+.descritivo{
+    font-size: 15px;
+    color: #92908d;
+    font-weight:700;
+    height:45px;
+}
+.descritivo-portfolio{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+    color:#828282;
+    font-weight:300;
+}
+/*responsividade Mobile*/
+
+@media (min-width: 320px) and (max-width:480px ) {
+.lista-menu li>a{
+    font-size: 12px;
+}   
+.nome-completo {
+    font-size: 25px;
+    color: #ffffff;
+}
+.profissao {
+    font-size: 15px;
+}
+.article-lista{
+    margin-top:15px;
+    margin-bottom:15px
+}
+.topico-principal{
+    font-size: 17px;
+}
+.lista-item{
+    padding: 22px;
+}
+
+.lista-item ul li{
+    margin-bottom: 22px;
+}
+.lista-titulo{
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.lista-local{
+    font-size:12px;
+}
+.lista-descricao{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-weight:300;
+}
+.subtitulo-lista{
+    font-size: 14px;
+    font-weight: 300;
+}
+.lista-footer li{
+    font-weight: 300 ;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+.estilo-icon{
+    font-size: 22px;
+    margin-right:10px;
+}
+.desenho{
+    width: 100%;
+    padding: 5px;
+}
+.historia{
+    padding: 9px;
+    }
+}
+
+/*responsividade Tablet*/
+
+@media (min-width: 600px) {
+    .lista-menu li>a{
+        font-size: 15px;
+    }   
+    .nome-completo {
+        font-size: 26px;
+        color: #ffffff;
+    }
+    .profissao {
+        font-size: 21px;
+    }
+    .article-lista{
+        margin-top:15px;
+        margin-bottom:15px
+    }
+    .topico-principal{
+        font-size: 23px;
+    }
+    .lista-item{
+        padding: 24px;
+    }
+    
+    .lista-item ul li{
+        margin-bottom: 24px;
+    }
+    .lista-titulo{
+        margin-bottom: 4px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .lista-local{
+        font-size:15px;
+    }
+    .lista-descricao{
+        font-size: 15px;
+        margin-top: 6px;
+        margin-right: 15px;
+        font-weight:400;
+    }
+    .subtitulo-lista{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .lista-footer li{
+        font-weight: 300 ;
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-left: 15px;
+    }
+    .estilo-icon{
+        font-size: 24px;
+        margin-right:8 px;
+    }
+    .desenho{
+        width: 100%;
+        padding: 5px;
+    }
+    .historia{
+    padding: 15px;
+    }
+}
