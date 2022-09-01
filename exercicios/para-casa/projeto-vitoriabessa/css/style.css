@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      margin: 0;
+  }
+  
+  
+  /* 
+  ESTILOS DO BANNER */
+  .banner {
+    background: url("./img/banner-bg.png") center;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding: 20rem;
+    color: white;
+  }
+  
+  .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      margin-top: 10rem;
+  }
+  
+  .banner__titulo {
+      font-size: 5rem;
+  }
+  
+  .banner__subtitulo {
+      font-size: 2.3 rem;
+  }
+  
+  .u-margin-bottom-peq {
+      margin-bottom: 2rem;
+  }
+  
+  .btn-branco{
+      color: #8e9a44;
+      background-color: white;
+  }
+  
+  .btn{
+      border-radius: 3rem;
+      text-transform: uppercase;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+
+  .btnnn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+  p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  /* SEÇÃO SOBRE */
+  
+  .sobre__div{
+      margin: 15rem;
+      margin-top: 10 rem;
+  }
+  
+  .sobre__titulo{
+      font-size: 4rem;
+      color: #8e9a44;
+      padding: 10;
+  }
+  
+  .sobre__descricao-div{
+      width: 100%;
+      display: inline-block;
+      line-height: 1.5;
+  }
+  
+  .sobre__descricao-texto{
+      font-size: 1.6rem;
+  }
+  
+  .sobre__descricao-destaque{
+      font-size: 2rem;
+  }
+  
+  
+  .btn-vermelho{
+      color: #9a4b44;
+      border: 1px solid #9a4b44;
+      text-align: center;
+  }
+  
+  ul{
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  /* SEÇÃO REDES SOCIAIS */
+  
+  .footer{
+      text-align: center;
+      margin-bottom: 10rem;
+  }
+  
+  .redes__sociais-item{
+    border-radius: 20px;
+      display: inline-block;
+      width: 20%;
+      background-color: #8e9a44;
+      padding: 2rem 0;
+      margin: 0 1rem;
+      text-align: center;
+      color: white;
+  }
+  
+  .redes__sociais-img{
+      margin-bottom: 0.5rem;
+  }
+  
+  h3{
+      font-size: 2.5rem;
+  }
+
+  .copy {
+   text-align: center;
+   margin-bottom: 40px;
+
+  }
+
+/* RESPONSIVIDADE ATÉ 480PX */
+@media (max-width: 480px) {
+
+.banner {
+    background: url("./img/banner-bg.png") center;
+    background-size: cover;
+    padding: 10vh;
+    height: 30vh;
+    width: 80vw;
+    color: #8e9a44;
+}
+
+.banner__titulo {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+
+}
+
+.btn-branco{
+    size: 5px;
+    color: white;
+    background-color: #8e9a44;
+}
+
+.btn{
+    border-radius: 3rem;
+    text-transform:uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sobre__titulo {
+    font-size: 5vw;
+    color: #8e9a44;
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.sobre__div{
+    margin: 5rem;
+    margin-top: 10rem;
+}
+
+.sobre__descricao-texto{
+    font-size: .8rem;
+}
+
+.sobre__descricao-destaque{
+    font-size: .8rem;
+}
+
+.sobre__descricao-div {
+    text-align: center;
+}
+
+.btn-vermelho{
+      color: #9a4b44;
+      border: 1px solid #9a4b44;
+      text-align: center;
+  }
+
+  .btnnn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.redes__sociais-item{
+    border-radius: 20px;
+      display:list-item;
+      width: auto;
+      background-color: #8e9a44;
+      padding: 2rem 0;
+      margin: 5px;
+      text-align: center;
+      color: white;
+  }
+
+
+* {
+    box-sizing:content-box;
+  }
+
+
+
+
+}
+
+/* RESPONSIVIDADE ATÉ 480PX */
+@media (max-width: 600px) {
+
+    .banner {
+        background: url("./img/banner-bg.png") center;
+        background-size:cover;
+        padding: 10vh;
+        height: 30vh;
+        width: 80vw;
+        color: #8e9a44;
+    }
+    
+    .banner__titulo {
+        font-size: 3em;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .btn-branco{
+        size: 5px;
+        color: white;
+        background-color: #8e9a44;
+    }
+    
+    .btn{
+        border-radius: 3rem;
+        text-transform:uppercase;
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .sobre__titulo {
+        font-size: 5vw;
+        color: #8e9a44;
+        padding: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    
+    }
+    
+    .sobre__div{
+        margin: 5rem;
+        margin-top: 10rem;
+    }
+    
+    .sobre__descricao-texto{
+        font-size: .8rem;
+    }
+    
+    .sobre__descricao-destaque{
+        font-size: .8rem;
+    }
+    
+    .sobre__descricao-div {
+        text-align: center;
+    }
+    
+    .btn-vermelho{
+          color: #9a4b44;
+          border: 1px solid #9a4b44;
+          text-align: center;
+      }
+    
+      .btnnn{
+        border-radius: 3rem;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    
+    .redes__sociais-item{
+        border-radius: 20px;
+          display:list-item;
+          width: auto;
+          background-color: #8e9a44;
+          padding: 2rem 0;
+          margin: 5px;
+          text-align: center;
+          color: white;
+      }
+    
+    
+    * {
+        box-sizing:content-box;
+      }
+    
+    
+    
+    
+    }
