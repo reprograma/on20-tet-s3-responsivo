@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2? family= Mulish:ital,wght@1.200 & display=swap');
+
+body{
+    height: 100vh;
+    background:linear-gradient(90deg,#000,#000e 30%,#000d 35%,#0000),url(../img/1_6c7wFVetFqn2o3ulk_LleA.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+    font-family:'Mulish',sans-serif;
+}
+
+
+
+@media(max-width:480px){
+    body{
+        padding: 30px 30px 25px 30px;
+        background-image: url(../img/1_6c7wFVetFqn2o3ulk_LleA.jpeg);
+        background-color: #0009;
+        background-blend-mode: darken;
+
+    }
+}
+
+
+
+
+
+
