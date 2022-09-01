@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-image: linear-gradient(to top, #d4ccdb, #f953c6, #e7e5e6);
+  color: #000000;
+  margin: 12px;
+}
+
+h1 {
+  color: #600972;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  color: #2a0074;
+  font-size: 40px;
+}
+
+h3 {
+  color: #0f2027;
+}
+
+.titulo-roxo1 {
+  color: #31084d;
+
+}
+
+.titulo-roxo2 {
+  color: #240b36;
+}
+
+.titulo-roxo3 {
+  color: #240b36;
+}
+
+section {
+  width: 60%;
+
+  margin: auto;
+
+}
+
+section section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+img {
+  width: 70%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #121ca8;
+  font-weight: 700;
+}
+
+.principal a {
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal {
+  background: #52088f;
+  height: 40px;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
