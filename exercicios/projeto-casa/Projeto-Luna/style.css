@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Raleway:ital,wght@1,300&display=swap');
+  
+  body {
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      margin: 0;
+  }
+  
+  
+  
+  .banner {
+    background: url("./img/Katherine-Johnson-Banner.png");
+    background-size: cover ;
+    height: 50vh;
+    text-align: center;
+    padding: 0.3rem;
+    color: white;
+
+  }
+  
+  .container {
+      max-width: 50%;
+      margin: 0 auto;
+      margin-top: 5rem;
+  }
+  
+  .banner-title {
+      font-size: 2rem;
+      
+  }
+  
+  .banner-subtitle {
+      margin-bottom: 10px;
+  }
+  
+  
+  
+  .btn-container {
+      color: #6c63ff;
+      background-color: white;
+  }
+  
+  .btn {
+      border-radius: 1rem;
+      text-transform: uppercase;
+      padding: 0.5rem 0.5rem;
+      font-size: 0.5rem;
+      font-weight: bold;
+      color: #6C24A3;
+      border: 0.063rem solid #6C24A3;
+  }
+  
+  
+  a{
+      text-decoration: none;
+  }
+  
+ 
+  
+  .about-container {
+      margin: 4rem;
+      margin-top: 4rem;
+      
+      
+  }
+  
+  .about-title {
+      font-size: 3rem;
+      color: #C4C4C4;
+      margin-bottom: 3rem;
+  }
+  
+  .about-discription {
+      width: 53%;
+      display: inline-block;
+      line-height: 1.5;
+  }
+  
+  .about-featured-text {
+      font-size: 1.3rem;
+  }
+  
+  .about-discription-text {
+      font-size: 1.3rem;
+  }
+  
+  .skills-container {
+      display: inline-block;
+      margin-right: 5rem;
+      border-radius: 50px;
+      vertical-align: top;
+  }
+
+  .profile-picture {
+    width: 200px;
+    border-radius: 100px;
+  }
+  
+  .skills-title {
+      font-size: 1.4rem;
+  }
+  
+  .skills-list {
+      padding-left: 2rem;
+      line-height: 2;
+      font-size: 1.3rem;
+  }
+    
+    
+
+ .card {
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+.social-networks-card {
+    display: inline-block;
+    width: 20%;
+    background-color: #6C24A3;
+    padding: 1rem 0;
+    margin: 0 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+.social-networks-img {
+    margin-bottom: 0;
+}
+
+.social-networks-title {
+    font-size: 1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' sans-serif;
+  }
+
+.footer-container {
+    text-align: center;
+}
+@media (min-width: 600px) and (max-width: 1040px) {
+  .about-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  } 
+
+  .about-container {
+    margin: 4rem;
+    
+}
+
+.about-discription {
+  width: 100%;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: flex;  
+  justify-content: center;
+  margin-right: auto;
+}
+
+.social-networks-card {
+  display: inline-block;
+  background-color: #6C24A3;
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  margin: 0.5rem;
+  width: 8rem;
+}
+
+.social-networks-container {
+  display: flex;
+  justify-content: center;
+}
+  
+}
+
+@media (max-width: 480px) {
+  .banner {
+    background-size: cover;
+    max-height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  } 
+
+  .about-container {
+    margin: 4rem;
+    
+}
+
+.about-discription {
+  width: 100%;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: flex;  
+  justify-content: center;
+  margin-right: auto;
+}
+
+.social-networks-card {
+  display: inline-block;
+  background-color: #6C24A3;
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  margin: 0.5rem;
+  width: auto;
+}
+
+}
+
+
+
+
+  
