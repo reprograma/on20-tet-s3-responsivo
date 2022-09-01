@@ -1,0 +1,330 @@
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+	padding: 0px 0;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+
+nav {
+	position: absolute;
+	top: 50px;
+}
+
+
+nav li {
+	display: inline; 
+	margin: 0 0 0 20px;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fffcfc;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+
+.banner {
+	width:100%;
+	height: 100%;
+}
+
+.principal {
+	padding: 3em 0;
+	background-size: auto;
+	background-color: #fce2d6;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	margin: 0 0 1em;
+	color: #122126;
+	padding-top: .6em;
+}
+
+h2 {
+	font-size: x-large;
+	margin: 0 0 5em;
+	text-align: center;
+}
+
+
+.principal__imagem {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+	
+}
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight: bold;
+	color: #e76739;
+
+}
+
+
+
+.sobre p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.sobre__imagem {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.sobre img {
+	width:100%;
+	height:420px;
+	border-radius: 10rem;
+
+}
+
+.redes-sociais__div {
+	text-align: center;
+	
+}
+
+.wiki-imagem{
+	max-width: 11%;
+	max-height: 13%
+}
+
+.github-imagem{
+	max-width: 11%;
+	max-height: 13%
+}
+
+
+.imagem--atuacao {
+	width: 50%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #dbffff;
+}
+
+.imagem--atuacao:hover {
+	opacity: 0.3;
+}
+
+/* estilizando id */
+#servicos__atividades {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+/* estilizando class */
+
+.itens-redes {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	
+}
+
+form {
+	margin: 50px 50px;
+	max-height: max-content
+	
+}
+
+form label, form legend {
+	display:block;
+	font-size: 15px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 5px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 15px bold;
+	margin: 20px 0 0;
+}
+
+@media (max-width:480px) {
+	.caixa, .principal{
+		width:auto;
+
+	}
+
+	.navegador{
+		left: 15%;
+		}
+
+	.banner{
+		width: 100%;
+
+	}
+	nav a  {
+		font-size: 10px;
+		font-weight: none;
+		text-shadow: #000000
+		
+	}
+
+	.principal {
+		padding: 0;
+		font-size: 10px;
+
+	}
+
+	.titulo__principal {
+		font-size: 1.8em;
+		padding: 1em 0;
+	
+	}
+
+	.principal__imagem {
+		width: 35%;
+		margin-left:15px;
+		
+	}
+	.principal p {
+		font-size: .7rem
+	}
+
+	h2 {
+		padding: 0;
+	}
+
+	form {
+		max-height: max-content;
+		align-items: 50%
+		
+	}
+	.linkedin-imagem{
+		max-width: 57px;
+        max-height:57px;
+		clear: both;
+        margin-top: 20px;
+		vertical-align: bottom
+	}
+
+	.insta-imagem{
+		max-width: 57px;
+        max-height:57px;
+		clear: both;
+        margin-top: 20px;
+		vertical-align: bottom
+	}
+}
+
+@media (max-width:600px) {
+	.caixa, .principal{
+		width:auto;
+
+	}
+
+	
+	
+	nav a  {
+		font-size: 15px;
+		font-weight: none;
+		text-shadow: #000000
+		
+	}
+
+	.principal {
+		padding: 0;
+		font-size: 20px;
+
+	}
+
+	.titulo__principal {
+		font-size: 1.8em;
+	
+	}
+
+	.principal__imagem {
+		width: 35%;
+		margin-left:15px;
+		
+	}
+	.principal p {
+		margin: 3%;
+		font-size: .80rem
+	}
+
+	h2 {
+		margin-left: 1%;
+		text-align: left;
+		padding: 0;
+
+	}
+	form {
+		max-height: max-content
+		
+	}
+
+	.linkedin-imagem{
+		max-width: 57px;
+        max-height:57px;
+		clear: both;
+        margin-top: 20px;
+		vertical-align: bottom
+		
+	}
+
+	.insta-imagem{
+		max-width: 57px;
+        max-height:57px;
+		clear: both;
+        margin-top: 20px;
+		vertical-align: bottom
+	}
+}
