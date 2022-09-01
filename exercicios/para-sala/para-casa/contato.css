@@ -1,0 +1,114 @@
+
+
+body {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+	background: #6A8FA6;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.caixa img {
+	width: 110px;
+	
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fffcfc;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+
+.banner {
+	width:100%;
+}
+/* Pagina */
+.contatou {
+	display: inline-flex;
+}
+/* Imagem */
+.imgg {
+	width: 70vh;
+	height: 80vh;
+	align-items: center;
+	padding: 15vh;
+}
+/* Formulario */
+form {
+	width: 90vh;
+	margin: 10vh;	
+	color: #8A3B77;
+	}
+input, textarea {
+	font-family: san-serif;
+	font-weight: normal;
+	font-size: 2vh;
+	background-color: rgba(255,255,255,.8);
+	}
+	
+	input:hover, textarea:hover {
+		background-color: #d088d748;
+	}
+	
+	legend {
+	color: #8A3B77;
+	font-weight: bold;
+	font-size: 4vh;
+	font-family: sans-serif;
+	}
+	
+button {
+	background-color: #8A3B77;
+	color: #CCCCCC;
+	font-size: 2.5vh;
+	margin: 3vh 5vh 3vh 20vh;
+	padding: 2vh 8vh 2vh 8vh;
+	border-radius: 20vh;;
+	text-align: center;
+	align-items: center;
+	display: block;
+}
+/* Footer */
+
+footer {
+	text-align: center;
+	background-color: #A7C6D9;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #2c3032;
+	font-size: 15px bold;
+	margin: 20px 0 0;
+}
+
+

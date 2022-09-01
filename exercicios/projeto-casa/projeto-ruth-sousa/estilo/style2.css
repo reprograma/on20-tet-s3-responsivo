@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    padding:3vh;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3vh;
+
+}
+#logo {
+    font-family: 'Gabriela', serif;
+    font-size: xx-large;
+    background-color: #D74C66;
+    padding: 2vh 15vh ;
+    margin: -10vh;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*FORMACAÇÃO DO MENU*/
+nav#menu{
+    display: block;
+    
+    }
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;	
+    position: absolute;
+    top: -20px;
+    left: 130vh;
+    }
+nav#menu li {
+    display: inline-block;
+    background-color: #D74C66;
+    padding: 2vh;
+    margin: 0vh;
+    transition: 2s;
+    border-radius: 18px;
+    }
+nav#menu li:hover {
+    background-color: #F7E0D4;
+    }
+nav#menu a {
+    color: #4D3453;
+    text-decoration: none;
+    font-weight: bold;
+    }
+nav#menu a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    }		
+
+/* */
+.text {
+    display: block;
+    border: dotted #D74C66;
+    padding: 3vh;
+    margin: 5vh 5vh 5vh 5vh;
+    font-size: 3.5vh;
+    text-align: center; 
+    color: c;
+}
+
+.carreira {
+    display: flex;
+        } 
+
+.ler{
+    border: #4D3453;
+    background-color: #D74C66;
+    padding: 2vh;
+    margin: 0vh;
+    transition: 2s;
+    border-radius: 18px;
+    color: #4D3453;
+    text-decoration: none;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.textc, h2 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    }
+.img{
+    padding: 5vh;
+}
+
+h2 {
+    font-family: 'Gabriela', serif;
+    font-size: 7vh;
+    color: #D74C66;
+}
+
+footer{
+    text-align: center;
+}
+

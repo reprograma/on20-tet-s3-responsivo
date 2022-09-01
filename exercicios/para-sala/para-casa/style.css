@@ -1,0 +1,256 @@
+body {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+/* Header */
+header {
+	background: #6A8FA6;
+	padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+.caixa img {
+	width: 110px;	
+}
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #fffcfc;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+.banner {
+	width:100%;
+}
+/* Main */
+h1  {
+	text-align: center;
+	font-size: 4em;
+	margin: 0 0 1em;
+	color: #122126;
+	padding-top: .6em;
+}
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+.titulo-secundario {
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 1em;
+	color: #122126;
+}
+.mulheres-tecnologia {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+.principal strong {
+	font-weight: bold;
+}
+.principal em {
+	font-style: italic;
+}
+/*Sobre*/
+.sobre {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #6A8FA6);
+}
+.sobre p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 1.3rem;
+}
+.sobre-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+.sobre-conteudo img {
+	width:100%;
+	height:420px;
+	border-radius: 1rem;
+}
+/* Atuação */
+.atuacao {
+	padding: 3em 0;
+	background: #345B73;
+}
+.atuacao > h2{
+	color: white;
+	padding-top: 20px;
+}
+.conteudo-atuacao {
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+.lista-atuacao{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+}
+.itens {
+	line-height: 1.5;
+	font-size: 21px;
+	color: #D8EDF2;
+	top:-30px;
+}
+.itens:hover {
+	font-size: 23px;
+}
+.itens:first-child {
+	font-weight: bold;
+}
+.itens:before {
+	content: "🟊";
+	color: #e76739;
+}
+.imagem-atuacao-mundo {
+	width: 50%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #dbffff;
+}
+.imagem-atuacao-mundo:hover {
+	opacity: 0.3;
+}
+/* Serciços */
+#servicos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+#servicos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #f9f7f7;
+	border-radius: 10px;
+}
+#servicos p,  h3 {
+   color: #D8EDF2;
+}
+#servicos li:hover {
+	border-color: #e76739;
+}
+#servicos li:hover h3 {
+	font-size: 34px;
+}
+#servicos h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white
+}
+.servico-descricao {
+	font-size: 18px;
+}
+.servico-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+/* Footer */
+footer {
+	text-align: center;
+	background-color: #A7C6D9;
+	padding: 40px 0;
+}
+.copyright {
+	color: #2c3032;
+	font-size: 15px bold;
+	margin: 20px 0 0;
+}
+
+
+/* Css Formulario */
+form {
+	margin: 40px 80px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background-color: #6A8FA6;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #e76739;
+	transform: scale(1.2);
+}
+
+/* Css tabela */
+
+table {
+	margin: 40px 80px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+.horario h3 {
+	color: #2c3032;
+	margin: 100px 0 0 80px;
+	font-size: 25px;
+	font-weight: bold;
+}

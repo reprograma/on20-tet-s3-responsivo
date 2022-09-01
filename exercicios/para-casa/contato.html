@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Projeto On20</title>
+
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="caixa">
+			<img src="./img/logo.png">
+
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<form class="formulario">
+			<!-- recebe informações do usuário. inserção de dados para envio ao servido -->
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<!-- label é o titulo de cada input  -->
+			<input type="text" id="nomesobrenome" 
+			class="input-padrao" required>
+			<!-- input abre campo para preenchimento de informações tem varios tipos, depende do dado a ser inserido-->
+
+			<label for="email">Email</label>
+			<!--  o atributo for indica qual é o tipo de conteudo incluido pelo proprio desenvolvedor-->
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+			<!-- o atributo type indica o tipo de input, se e e-mail, ele precisa ser no formato de email -->
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+			<!-- o placeholder  informa ao usuário  o modelo de informação que precisa ser preenchido -->
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required>Escreva aqui a sua mensagem</textarea>
+			<!-- text area disponibiliza maior espaço para que o usuario possa mandar uma msg -->
+			<!-- a informação indicada ao usuario fica entre dentro da tag -->
+			<!-- cols indica quantas colunas haverão nestárea-->
+			<!-- rows indica quantas linhas tem nesta áres -->
+
+			<fieldset>
+				<!-- o fielset é usado para agrupar elementos -->
+				<legend>Como prefere o nosso contato?</legend>
+				<!-- legenda indica o titulo -->
+				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+					Email</label>
+					<!-- o input type indica o tipo de input, pode ser um passaword, text mostra o text -->	
+					<!-- nome indica o nome do atributo e veicula ele a um mesmo tipo, no caso de selecao de apenas uma opcao -->
+					<!-- valor valor a ser enviado -->
+				<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+					Telefone</label>
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+						checked> WhatsApp</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Qual horário prefere ser atendido?</legend>
+				<select>
+					<!--  select é uma tag de seleção abrindo uma caixa com itens a serem selecionados . indicado para varias opções e o usaario já sabe o que vai optar-->
+					<option>Manhã</option>
+					<!-- option abre uma caixa de opçao -->
+					<option>Tarde</option>
+					<option>Noite</option>
+				</select>
+			</fieldset>
+
+			<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+				email?</label>
+				<!--  indica uma caixa de seleção a ser marcada, pode selecionar diversos valores  -->
+
+			<input type="submit" value="Enviar formulário" class="enviar">
+			<!-- o input significa que a informaçãos erá enviada para algum lugar -->
+			<!--  o type susmit indca que é uam subissao, a de pender do contexto, poderia ser um botão -->
+			<!-- <button type="submit">Enviar formulário</button> -->
+		</form>
+
+		
+		<!-- tabelas servem inserir dados tabulados  -->
+		<table class="tabela">
+			<caption class="horario">
+				<h3>Horário de Funcionamento</h3>
+			</caption>
+			<!--  a tag caption inclui o titulo  da tabela -->
+			<thead>
+				<th>Dia</th>
+				<th>Horário</th>
+				<!-- o th é uma celula para cabeçalho, uma referencia ao restante da tabela -->
+			</thead>
+			<!-- thead é o cabeçalho da coluna -->
+			<tbody>
+				<!-- tbody é o corpo da tabela -->
+				<tr>
+				<!-- tr é a tag de linha - -->
+
+					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+					<!-- td é a linha de coluna  -->
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</tbody>	
+			<tfoot>
+				<!-- o tfoot é o rodapé da tabela  -->
+				<th colspan="2">Entre em contato</th>
+				<!-- o atributo colspan aumetna o numero de colunas -->
+				<!-- o atributo rowspan aumenta o npumero linhas da coluna-->
+			</tfoot>
+		</table>
+		
+	</main>
+	<footer>
+		<a href="https://www.linkedin.com/in/jaqueline-de-almeida/" target="_blank">
+			<img src="./img/icons8-linkedin-circled-64.png" alt="Icone Linkedin">
+		</a>
+		<a href="https://github.com/jaquelinedealmeida" target="_blank">
+			<img src="./img/icons8-github-64.png" alt="Icone Github">
+		</a>
+		<p class="copyright">&copy; Copyright Jaqueline de Almeida - Todas em Tech - reprograma -2022</p>
+	</footer>
+</body>
+
+</html>
