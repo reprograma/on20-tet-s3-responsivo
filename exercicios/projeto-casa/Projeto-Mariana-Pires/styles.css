@@ -1,0 +1,1339 @@
+
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1000rem;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    /* font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    background-repeat: repeat;
+    background: url(./img/background.png) center center / cover repeat;
+    background-attachment: fixed; */
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    background-repeat: repeat;
+    background: url(./img/background.png) center center / cover repeat;
+    background-size: 37vh;
+    background-position: center;
+    width: 127vh;
+    position: relative;
+}
+
+
+a{
+    text-decoration: none;
+    color: plum;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+img {
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+/* FORMULÁRIO CONTATO  */
+
+.inputs{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    float:inline-end;
+    border-radius: 30px;
+    margin-top: 18rem;
+    margin-left: 5rem;
+
+}
+
+.fname{
+border-radius: 25px;
+}
+
+.em{
+    border-radius: 25px;
+}
+
+.email{
+    border-radius: 25px;
+}
+
+.msg-box{
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: 15rem;
+}
+
+/* BOTÕESSS! */
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.btn-branco{
+    color: rgb(126, 69, 155);
+    background-color: white;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    width: 90rem;
+    margin-left: 40rem;
+    float: left;
+    padding: 3px 7px 5px;
+    margin-bottom: 40vh;
+    max-width: 50vh;
+}
+
+.btn-envio{
+    color: rgba(84, 22, 114, 0.786);
+    background-color: white;
+    border: 1px;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    padding: 1%;
+}
+
+
+/* ESTILOS DO BANNER */
+
+.banner-div{
+    height: 25em;
+    text-align: center;
+    padding-top: 44vh;
+    background: url(./img/mariana\ pires\ freitas\ \(1\).png) center center / cover no-repeat;
+    background-size: 69vh;
+    margin-left: -7%;
+    width: 62%;
+    background-position: center;
+}
+
+.banner-container{
+    max-width: 1080px;
+    margin: 10rem auto 0px;
+}
+
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+/* ESTILO SEÇÃO MENU */
+
+.btn-menu{
+    color: #2c720c;
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    background-color: white;
+    float: left; 
+    font-family: 'Silkscreen', sans-serif;
+    text-transform: uppercase;
+    top: 75rem;
+    left: 53%;
+    float: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  
+}
+.menu li{
+    position: relative;
+    float: left;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a{
+    color: #6c5d81;
+    text-decoration: none;
+    padding: 5px 10px;
+    display:block;
+}
+
+.menu li a:hover{
+    background: #2c720c;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+    
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+.menu li ul li{
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+.carol{
+    color: #93443f;
+}
+
+/* MINIBIO */
+
+minibio{
+    border-radius: 25px;
+}
+
+.img-minibio{
+    float: right;
+    padding: 2rem;
+    size: 50rem;
+    margin-right: 37em;
+    margin-top: 20rem;
+}
+
+.txt-minibio{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem;
+    text-align: center;
+    width: 45rem;
+    float: right;
+    margin-right: 40rem;
+    margin-top: 1rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+}
+
+/* 
+
+
+.sobre-container{
+    margin: 3rem;
+ }
+
+ .sobre-titulo{
+    padding: 11rem;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+ }
+
+ .sobre-descricao__div{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+ }
+
+.sobre-descricao__destaque{
+    font-size: 2rem;
+}
+
+.sobre-descricao__texto{
+    display: inline-block;
+    line-height: 1.5;
+    margin-bottom: 20px;
+} */
+
+
+/* HABILIDADES 
+.sobre-habilidades__div{
+    width: 40%;
+    float: right;
+    line-height: 1.0;
+    margin-left: 15rem;
+}
+
+.sobre-habilidades__titulo{
+    font-size: 2rem;
+    text-decoration: solid;
+}
+
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+.link-habilidade{
+   color: #9156BB;
+   text-decoration: underline;
+
+} */
+
+/* SESSÃO TIC TAC TOE */
+
+.img-ttt{
+    max-width: 1000rem;
+    height: 28rem; 
+    float: right;
+    margin-right: 32rem;
+    margin-top: 20rem;
+}
+
+.img-ttt2{
+    height: 20rem; 
+    float: left;
+    margin-left: 40rem;
+    margin-top: 15rem;
+}
+
+.txt-ttt{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 35rem;
+    float: left;
+    margin-left: 38rem;
+    margin-top: 22rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+}
+
+.txt-ttt2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 35rem;
+    float: right;
+    margin-right: 25rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    margin-top: 11rem;
+}
+
+/* SESSÃO CHECKERS */
+
+
+.img-checkers{
+    max-width: 100rem;
+    width: 28rem; 
+    float: right;
+    margin-right: 32rem;
+    margin-top: 15rem;
+    padding: 3%;
+}
+
+.img-checkers2{
+    max-width: 100rem;
+    width: 35rem; 
+    float: right;
+    margin-right: 45rem;
+    margin-top: 8rem;
+}
+
+.txt-checkers{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 25rem;
+    float: left;
+    margin-left: 45rem;
+    margin-top: 22rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.txt-checkers2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 3rem 3rem;
+    width: 45rem;
+    float: left;
+    margin-left: 50rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* SESSÃO RIVER RAID */
+
+
+.img-rr{
+    height: 25rem; 
+    float: right;
+    margin-right: 35rem;
+    margin-top: 15rem;
+}
+
+.img-rr2{
+    height: 20rem; 
+    float: left;
+    margin-top: 20rem;
+    margin-left: 36rem;
+}
+
+.txt-rr{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2%;
+    width: 40rem;
+    float: left;
+    margin-left: 35rem;
+    margin-top: 18rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+}
+
+
+.txt-rr2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 35rem;
+    float: left;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    margin-top: 10rem;
+    margin-left: 8rem;
+}
+
+.txt-rr3{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 12px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+/* SESSÃO SOBRE CAROL SHAW */
+
+.img-cs{
+    max-width: 100rem;
+    height: 24rem;
+    float: right;
+    padding-right: 20rem;
+    margin-top: 23rem;
+}
+
+.img-cs2{
+    max-width: 100rem;
+    height: 33rem; 
+    float: left;
+    margin-top: 6rem;
+    padding-left: 35rem;
+}
+
+.img-cs3{
+    max-width: 100rem;
+    height: 25rem; 
+    float: right;
+    padding-right: 23rem;
+    margin-top: 12rem;
+}
+
+.txt-cs{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 45rem;
+    margin-top: 25rem;
+    margin-left: 30rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 12px;
+}
+
+.txt-cs2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 33rem;
+    margin-right: 18rem;
+    float: right;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 12px;
+    margin-top: 9rem;
+}
+
+.txt-cs3{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 5rem 3rem;
+    width: 30rem;
+    float: left;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    margin-left: -30rem;
+    margin-top: 49rem;
+}
+
+/* FOOTER */
+
+.footer{
+    padding: 250px 566px 15px;
+    color: white;
+}
+
+.footer-about{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 39rem;
+    float: right;
+    text-align: center;
+}
+
+.footer-minibio{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 1rem;
+    float: right;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.footer-rr{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 1rem;
+    float: right;
+    margin-right: 48rem;
+    text-align: center;
+}
+
+.footer-index{
+    padding: 10% 2% 6%;
+    margin-right: 86vh;
+    color: white;
+    margin-top: -4vh;
+}
+
+.footer-ttt{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 1rem;
+    float: right;
+    margin-right: 48rem;
+    text-align: center;
+}
+
+.footer-checkers{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 1rem;
+    float: right;
+    margin-right: 48rem;
+    text-align: center;
+}
+
+.footer-contato{
+    padding: 5rem 7rem 2rem;
+    color: white;
+    margin-top: 1rem;
+    float: right;
+    margin-right: 48rem;
+    text-align: center;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:480px){
+    .banner-div {
+        height: 25em;
+        text-align: center;
+        padding-top: 44vh;
+        background: url(./img/mariana\ pires\ freitas\ \(1\).png) center center / cover no-repeat;
+        background-size: 93vh;
+        margin-left: -7%;
+        width: 62%;
+        background-position: center;
+    }
+
+        body {
+            font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+            background-repeat: repeat;
+            background: url(./img/background.png) center center / cover repeat;
+            /* background-size: 37vh; */
+            background-position: center;
+            width: 127vh;
+            position: relative;
+        }
+
+        .btn-branco {
+            color: rgb(126, 69, 155);
+            background-color: white;
+            font-family: 'Silkscreen', sans-serif;
+            font-size: 1em;
+            padding: 9px 75px 9px;
+            margin-right: 29vh;
+            float: right;
+            margin-top: 28vh;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: baseline;
+            max-width: 57px;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+        }
+
+    .banner-container {
+        margin: -22.5rem 6px 68rem -8rem;
+      }
+      
+    .btn-menu {
+        color: #2c720c;
+        list-style: none;
+        background-color: white;
+        font-family: 'Silkscreen', sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        margin-top: -68vh;
+        margin-left: -35vh;
+        table-layout: fixed;
+        max-width: 36rem;
+        width: 70vh;
+        align-items: center;
+        text-align: center;
+        transform: translate(-33.5vh, -4rem);
+        display: flex;
+    }
+
+    .footer-index{
+        padding: 10% 2% 6%;
+        margin-right: 72vh;
+        color: white;
+    }
+
+    .footer-minibio{
+        padding: 10% 2% 6%;
+        margin-right: 72vh;
+        color: white;
+    }
+
+    .footer-about{
+        padding: 10% 2% 6%;
+        margin-right: 82vh;
+        margin-top: -3vh;
+        color: white;
+    }
+
+    .footer-rr{
+        padding: 10% 2% 6%;
+        margin-right: 82vh;
+        margin-top: -3vh;
+        color: white; 
+    }
+
+    
+    .footer-ttt{
+        padding: 10% 2% 6%;
+        margin-right: 82vh;
+        margin-top: -3vh;
+        color: white; 
+    }
+
+    .footer-checkers{
+        padding: 10% 2% 6%;
+        margin-right: 82vh;
+        margin-top: -3vh;
+        color: white; 
+    }
+
+    .footer-contato{
+        padding: 10% 2% 6%;
+        margin-right: 82vh;
+        margin-top: -3vh;
+        color: white; 
+    }
+
+    .img-minibio {
+        float: right;
+        padding: 7% 50% 2%;
+        margin-right: 6rem;
+        width: 178vh;
+        margin-top: -13vh;
+    }
+
+.txt-minibio {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    width: 29rem;
+    text-align: center;
+    float: left;
+    margin-left: 3.7vh;
+    margin-top: 1rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 10px;
+}
+
+.img-cs {
+    max-width: 27rem;
+    height: 22vh;
+    float: right;
+    padding-right: 17vh;
+    margin-top: -1vh;
+    margin-right: 67vh;
+}
+
+.txt-cs {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 4% 3%;
+    width: 42vh;
+    margin-left: 6.8vh;
+    text-align: center;
+    margin-top: 4vh;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.txt-cs2 {
+    background-color: rgb(60, 91, 160);
+    border: 1px;
+    border-radius: 50px;
+    padding: 3%;
+    width: 24rem;
+    text-align: center;
+    margin-right: 77vh;
+    float: right;
+    margin-top: 43vh;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-cs2 {
+    height: 48vh;
+    float: left;
+    padding-left: 9vh;
+    padding-top: 7vh;
+    margin-top: -90vh;
+}
+
+.img-cs3 {
+    height: 29vh;
+    float: right;
+    margin-right: 50vh;
+    margin-top: 6vh;
+}
+
+.txt-cs3 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 23rem;
+    text-align: center;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-left: 8vh;
+    margin-top: 6vh;
+}
+
+.img-rr {
+    max-width: 855vh;
+    height: 30vh;
+    float: right;
+    margin-right: 87vh;
+    margin-top: -6vh;
+}
+
+.txt-rr {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 25rem;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    margin-left: 4rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-rr2 {
+    max-width: 1000rem;
+    height: 26vh;
+    float: left;
+    margin-top: 44vh;
+    margin-left: -38vh;
+}
+
+.txt-rr2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    text-align: center;
+    padding: 3%;
+    width: 26rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-top: 78vh;
+    margin-left: -41.2vh;
+}
+
+.txt-rr3 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 5%;
+    width: 21rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    float: right;
+    margin-right: 81vh;
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.img-ttt {
+    max-width: 1000rem;
+    height: 37vh;
+    float: right;
+    margin-right: 85vh;
+    margin-top: -4vh;
+}
+
+.txt-ttt {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 25rem;
+    float: left;
+    margin-left: 5vh;
+    margin-top: 8vh;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-ttt2 {
+    max-width: 50vh;
+    height: 32vh;
+    float: left;
+    margin-left: -44vh;
+    margin-top: 54vh;
+}
+
+.txt-ttt2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 24rem;
+    float: left;
+    margin-left: 4rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-top: 44vh;
+}
+
+.img-checkers {
+    float: right;
+    width: 41vh;
+    padding: 5%;
+    margin-right: 80vh;
+    margin-top: -15vh;
+}
+
+.txt-checkers {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 48vh;
+    float: right;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-right: 75vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.img-checkers2 {
+    max-width: 100vh;
+    width: 35vh;
+    float: right;
+    margin-right: 80vh;
+    margin-top: 8vh;
+}
+
+.txt-checkers2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 39vh;
+    float: right;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-right: 79vh;
+    text-align: center;
+}
+
+.msg-box {
+    border-radius: 25px;
+    width: 42vh;
+    margin-left: -8vh;
+    font-size: 1em;
+    text-align: center;
+}
+
+.fname {
+    border-radius: 25px;
+    padding: 3%;
+}
+
+.inputs{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 4rem;
+    margin-left: 6vh;
+    width: 28vh;
+}
+
+.em {
+    border-radius: 25px;
+    padding: 3%; 
+}
+}
+
+@media (min-width:600px){
+    .banner-div {
+        height: 29vh;
+        text-align: center;
+        padding-top: 49vh;
+        background: url(./img/mariana\ pires\ freitas\ \(1\).png) center center / cover no-repeat;
+        background-size: 96vh;
+        margin-left: 2%;
+        width: 107%;
+        background-position: center;
+    }
+
+        body {
+            font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+            background-repeat: repeat;
+            background: url(./img/background.png) center center / cover repeat;
+            background-size: 77vh;
+            background-position: 50% center;
+            width: 105%;
+            margin-left: -5%;
+            position: relative;
+        }
+
+        .btn-branco {
+            color: rgb(126, 69, 155);
+            background-color: white;
+            font-family: 'Silkscreen', sans-serif;
+            font-size: 1.1em;
+            padding: 2rem;
+            margin-right: 20%;
+            float: right;
+            margin-top: 12%;
+            max-width: 10em;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+    .banner-container {
+        margin: -15% 6% 68% -6%;
+      }
+      
+    .btn-menu {
+        color: #2c720c;
+        list-style: none;
+        background-color: white;
+        font-family: 'Silkscreen', sans-serif;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        margin-top: -60vh;
+        margin-left: -15vh;
+        table-layout: fixed;
+        max-width: 50rem;
+        width: 45rem;
+        align-items: center;
+        text-align: center;
+        transform: translate(-30%, -4%);
+        display: flex;
+    }
+
+    .footer-index{
+        padding: 0.5px;
+        margin-left: 48%;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .footer-minibio{
+        padding: 0.5px;
+        padding-left: 20%;
+        margin-left: 5%;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .footer-about{
+        padding: 0.5px;
+        float: left;
+        margin-left: 90vh;
+        margin-top: 20vh;
+        color: white;
+    }
+
+    .footer-rr{
+        padding: 0.5px;
+        margin-left: 78vh;
+        float: left;
+        margin-top: 20vh;
+        color: white;
+    }
+
+    
+    .footer-ttt{
+        padding: 0.5px;
+        margin-left: 48%;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .footer-checkers{
+        padding: 0.5px;
+        margin-left: 48%;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .footer-contato{
+        padding: 0.5px;
+        margin-left: 48%;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .img-minibio {
+        float: right;
+        padding: 7% 5% 2%;
+        margin-right: 30%;
+        max-width: 60vh;
+        margin-top: 1%;
+    }
+
+.txt-minibio {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    width: 29%;
+    text-align: center;
+    float: left;
+    margin-left: 38%;
+    margin-top: 1rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 10px;
+}
+
+.img-cs {
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    margin-top: 45rem;
+    margin-left: 25rem;
+    padding: 7% 5% 2%;
+    margin-right: 30%;
+    max-width: 60vh;
+    margin-top: 1%;
+}
+
+.txt-cs {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+}
+
+.txt-cs2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+}
+
+.img-cs2 {
+    height: 48%;
+    float: left;
+    padding-left: 63rem;
+    padding-top: 62rem;
+    margin-top: -90vh;
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    margin-top: 45rem;
+    margin-left: 25rem;
+    padding: 7% 5% 2%;
+    margin-right: 30%;
+    max-width: 60vh;
+    margin-top: 1%;
+}
+
+.img-cs3 {
+    height: 29vh;
+    float: right;
+    margin-right: 25rem;
+    margin-top: 6rem;
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    padding: 7% 5% 2%;
+    margin-right: 30%;
+    max-width: 60vh;
+    margin-top: 1%;
+}
+
+.txt-cs3 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 23rem;
+    text-align: center;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-left: -25rem;
+    margin-top: 60rem;
+}
+
+.img-rr {
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    margin-top: 45rem;
+    margin-left: 25rem;
+    padding: 7% 5% 2%;
+    margin-right: 30%;
+    max-width: 60vh;
+    margin-top: 1%;
+}
+
+.txt-rr {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+}
+
+.img-rr2 {
+    height: 48%;
+    float: left;
+    padding-left: 63rem;
+    padding-top: 62rem;
+    margin-top: -90vh;
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    margin-top: 45rem;
+    margin-left: 25rem;
+    padding: 7% 5% 2%;
+    margin-right: 30%;
+    max-width: 60vh;
+    margin-top: 1%;
+}
+
+.txt-rr2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+}
+
+.txt-rr3 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    border: 1px;
+    padding: 3%;
+    width: 18rem;
+    text-align: center;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+    margin-left: 80vh;
+    margin-top: 20vh;
+    float: left;
+}
+
+.img-ttt {
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 35rem;
+    margin-top: -10rem;
+    margin-right: 20rem;
+}
+
+.txt-ttt {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 57rem;
+    text-align: center;
+    margin-top: 3rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-ttt2 {
+    height: 48%;
+    float: left;
+    padding-left: 23rem;
+    padding-top: 62rem;
+    margin-top: -90vh;
+}
+
+.txt-ttt2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 57em;
+    text-align: center;
+    margin-top: 5rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-checkers {
+    max-width: 55rem;
+    height: 5%;
+    float: right;
+    padding-right: 5rem;
+    margin-top: 10rem;
+    margin-right: -60rem;
+}
+
+.txt-checkers {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 57rem;
+    text-align: center;
+    margin-top: 20rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.img-checkers2 {
+    max-width: 86rem;
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin-left: 66rem;
+    margin-top: 5rem;
+}
+
+.txt-checkers2 {
+    background-color: rgb(60, 91, 160);
+    border-radius: 58px;
+    padding: 3%;
+    width: 25%;
+    margin-left: 57em;
+    text-align: center;
+    margin-top: 5rem;
+    float: left;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.0em;
+}
+
+.msg-box {
+    border-radius: 25px;
+    width: 39rem;
+    margin-left: -3vh;
+    font-size: 1em;
+    text-align: center;
+}
+
+.fname {
+    border-radius: 25px;
+    padding: 3%;
+}
+
+.inputs{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: -15rem;
+    margin-left: 28rem;
+    width: 17vh;
+}
+
+.em {
+    border-radius: 25px;
+    padding: 3%;
+}
+}
