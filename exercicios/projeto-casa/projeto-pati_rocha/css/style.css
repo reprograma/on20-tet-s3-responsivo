@@ -13,23 +13,19 @@
     position: fixed;
     background-color: #035317;
 }
-
 .navbar-logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-
 .img-logo {
     width: 80px;
     height: 50px;
     margin-left: 40px;
 }
-
 .navbar-titulo {
     color: #ffffff;
     font-size: 1.3rem;
-
 }
 .navbar-lista {
     list-style: none;
@@ -56,65 +52,53 @@
     padding-top: 80px;
     background-color: beige;
 }
-
 .titulo-sobre {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     padding-top: 30px;
 }
-
 .subtitulo-sobre {
     text-align: center;
     font-size: 1.1rem;
     padding: 20px;
     color: rgb(102, 97, 89);
 }
-
 .section-historia,
 .section-carreira,
 .section-black-money {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 80px;
+    padding: 80px 50px 0 50px;
 }
-
 .img-historia {
     width: 100%;
     max-width: 30%;
     height: auto;
     border-radius: 50%;
-    margin-right: 50px;
 }
-
 .img-carreira {
     width: 100%;
     max-width: 30%;
     height: auto;
     border-radius: 50%;
-    margin-left: 50px;
 }
-
-.paragrafo-section {
-    
-    text-align: center;
+.paragrafo-section {    
+    text-align: left;
     line-height: 1.5;
     text-indent: 50px;
     padding: 50px;
 }
-
 .titulo-video {
     text-align: center;
     font-size: 1.3rem;
-    margin-bottom: 30px;
+    margin: 30px;
 }
-
 .video {
     margin-right: 50px;
     
 }
-
 .section-form {
     display: flex;
     justify-content: space-around;
@@ -130,9 +114,7 @@
     /* width: 50%; */
     align-items: center;
     justify-content: center;
-
 }
-
 .redes-sociais h3 {
     color: #ffffff;
     font-size: 3rem;
@@ -145,7 +127,6 @@
     display: flex;
     align-items: left;
     flex-direction: column;   
-
 }
 .label {
     color: #ffffff;
@@ -160,7 +141,6 @@
     border: 1px solid;
     outline: none;
 }
-
 .textarea {
     width: 250px;
     height: 90px;
@@ -213,19 +193,12 @@
         display: none;
     }
     .section-historia {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 30px;
-    }
-    .img-historia {
-        order:-1;
-        margin: 0;
     }
     .paragrafo-section {
         text-align: justify;
         padding: 30px;
-    }
-    .img-carreira {
-        margin: 0;
     }
     .section-carreira, .section-black-money {
         flex-direction: column;
@@ -283,34 +256,26 @@
     .titulo-sobre {
         font-size: 2rem;
     }
-    .section-historia {
-        flex-direction: column;
-        padding: 30px;
+    .subtitulo-sobre {
+        font-size: .8rem;
     }
-    .img-historia {
-        order: -1;
-        margin: 0;
+    .section-historia {
+        flex-direction: column-reverse;
+       padding: 0 30px;
     }
     .paragrafo-section {
         text-align: justify;
+        padding: 30px 0 0 0;
+    }
+    .section-carreira, .section-black-money {
+        flex-direction: column;
         padding: 30px;
-    }
-    .section-carreira {
-        flex-direction: column;
-        padding: 0;
-    }
-    .img-carreira {
-        margin: 0;
-    }
-    .section-black-money {
-        flex-direction: column;
-        padding: 0;
     }
     .titulo-video {
         font-size: 90%;
         width: 85%;
         margin: auto;
-        padding-bottom: 30px;
+        padding: 30px 0;
     }
     .video {
         display: flex;
