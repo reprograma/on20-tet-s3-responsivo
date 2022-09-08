@@ -1,0 +1,430 @@
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+	background: #4682B4;
+	padding: 20px 0;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+.caixa img {
+	width: 110px;
+	
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;		
+}
+
+
+nav li {
+	display: inline; 
+	margin: 0 0 0 20px;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fffcfc;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+
+.banner {
+	width:100%;
+}
+
+
+/* Main */
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+
+	text-align: center;
+	font-size: 4em;
+	margin: 0 0 1em;
+	color: #122126;
+	padding-top: .6em;
+}
+
+
+.principal__imagem {
+	width: 300px;
+	float: left;
+	margin: 0 20px 20px 0;
+	
+}
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight: bold;
+	color: #e76739;
+
+}
+
+.principal em {
+	font-style: italic;
+}
+
+
+/*A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.*/
+
+/* Section sobre */
+.sobre {
+	padding: 3em 0;
+	background:(#FEFEFE, #6A8FA6);
+}
+
+.titulo__secundario {
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 1em;
+	color: #122126;
+
+}
+
+.sobre p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.sobre__imagem {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.sobre img {
+	width:100%;
+	height:420px;
+	border-radius: 10rem;
+
+}
+
+/* section atuacao */
+
+.atuacao {
+	padding: 3em 0;
+	background: #4682B4;
+	
+}
+.atuacao > h2{
+	color: white;
+	padding-top: 20px;
+
+}
+
+.conteudo__atuacao {
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.paragrafo__atuacao{
+	font-size: 25px;
+	color: rgb(32, 4, 4);
+}
+
+.paragrafo__atuacao2{
+	font-size: 25px;
+	color: rgb(32, 4, 4);
+}
+
+.itens-atuacao{
+	line-height: 1.5;
+	font-size: 21px;
+	color: #D8EDF2;
+	top:-30px;
+}
+
+.itens-atuacao:hover {
+	font-size: 23px;	
+}
+
+.itens-atuacao:first-child {
+	font-weight: bold;
+}
+
+.imagem--atuacao {
+	width: 80%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #dbffff;
+}
+
+.imagem--atuacao:hover {
+	opacity: 0.3;
+}
+
+
+/* estilizando id */
+#servicos__atividades {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+/* estilizando class */
+
+.itens-servicos {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #f9f7f7;
+	border-radius: 10px;
+	
+}
+
+#servicos__atividades p,  h3 {
+   color: #dfeef8;
+}
+
+#servicos__atividades li:hover {
+	border-color:#6A8FA6;
+
+}
+
+
+#servicos__atividades li:hover h3 {
+	font-size: 34px;
+}
+
+.itens-servicos {
+	color: black;
+}
+
+#servicos__atividades > h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.servicos-descricao {
+	font-size: 18px;
+}
+
+.servicos-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+	background-color: #4682B4;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #2c3032;
+	font-size: 15px bold;
+	margin: 20px 0 0;
+}
+
+/*media query condição até 480px para mobile*/
+
+@media (max-width: 480px){
+    .caixa, .principal{
+        width: auto;
+    }
+
+    .caixa img{
+        width: 15%;
+        margin-left: 20px;
+		margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+        font-weight: none;
+        margin-right: 10px;
+    }
+
+	.principal{
+		padding: 0;
+	}
+
+	.titulo__principal{
+		font-size: 1.8em;
+		color: rgb(15, 15, 86);
+		padding: 1em 0;
+	}
+
+	.principal__imagem{
+		width: 40%;
+		margin-left: 20px;
+	}
+
+	.principal p {
+		font-size: 0.9rem;
+		margin-left: 15px;
+		margin-right: 10px;
+	}
+
+	.titulo__secundario{
+		font-size: 1.5em;
+		color: rgb(15, 15, 86);
+	}
+
+	.sobre p{
+		font-size: .9rem;
+	}
+
+	.sobre__imagem{
+		width: auto;
+	}
+
+	.sobre img{
+
+		width: 80%;
+		height: 80%;
+		border-radius: 3rem;
+		margin-left: 60px;
+	}
+
+	.paragrafo__atuacao{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 15px;
+	}
+
+	.paragrafo__atuacao2{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 15px;
+	}
+
+	.imagem--atuacao{
+		width: 50%;
+		height: 50%;
+		margin-left: 60px;
+	}
+
+	.atuacao{
+		padding: 1em 0;
+	}
+}
+
+/* Media query de min600px para tablet*/
+
+@media(min-width: 600px){
+	.caixa, .principal{
+        width: auto;
+    }
+
+    .caixa img{
+        width: 15%;
+        margin-left: 40px;
+    }
+
+    nav a {
+        font-size: 20px;
+        font-weight: none;
+        margin-right: 20px;
+    }
+
+	.principal{
+		padding: 0;
+	}
+
+	.titulo__principal{
+		font-size: 2em;
+		color: rgb(15, 15, 86);
+		padding: 1em 0;
+	}
+
+	.principal__imagem{
+		width: 40%;
+		margin-left: 20px;
+	}
+
+	.principal p {
+		font-size: 1.3rem;
+		margin-left: 15px;
+		margin-right: 10px;
+	}
+
+	.titulo__secundario{
+		font-size: 1.5em;
+		color: rgb(15, 15, 86);
+	}
+
+	.sobre p{
+		font-size: 1rem;
+	}
+
+	.sobre__imagem{
+		width: auto;
+	}
+
+	.sobre img{
+
+		width: 80%;
+		height: 80%;
+		border-radius: 3rem;
+		margin-left: 60px;
+	}
+
+	.paragrafo__atuacao{
+		font-size: 20px;
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	.paragrafo__atuacao2{
+		font-size: 20px;
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	.imagem--atuacao{
+		width: 50%;
+		height: 50%;
+		margin-left: 100px;
+	}
+
+	.atuacao{
+		padding: 1em 0;
+	}
+	
+}
