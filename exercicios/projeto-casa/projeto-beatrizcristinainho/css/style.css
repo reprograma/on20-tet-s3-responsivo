@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: violet;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.cabecalho__titulo {
+    display: inline; 
+	margin: 0 0 0 20px;
+	
+}
+
+.principal {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border-radius: 200px;
+    
+    
+}
+
+
+.historia {
+    background-color: violet;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.historia__icone {
+    width: 75px;
+}
+
+.carreira {
+    background-color: violet;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.carreira__icone {
+    width: 75px;
+}
+
+.dinheiro {
+    background-color: violet;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.dinheiro__icone {
+    width: 75px;
+}
+
+.premio {
+    background-color: violet;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.premio__icone {
+    width: 75px;
+}
+
+.redes {
+    background-color: violet;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    display:flex;
+}
+
+.redes{
+    
+	color: black
+	text-decoration: none;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    color:black;
+}
+
+@media (max-width: 480px) and (min-width: 600px)
