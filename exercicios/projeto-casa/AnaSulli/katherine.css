@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #f8c4d9, #4ac8f5, #49efc8);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hd-link {
+  color: rgb(44, 44, 43);
+  margin-left: 100px;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 60px;
+  font-family: "Aboreto", cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  transition: .6s;
+
+}
+
+.hd-link:hover {
+  transition: .6s;
+  color: rgba(255, 255, 255, 0.3);
+
+}
+
+.nav-wrapper {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 1px;
+  padding: 0px;
+  width: 100%;
+  height: 15%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.links-wrapper {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+.links {
+  color: rgb(44, 44, 43);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: lowercase;
+  font-family: "Aboreto", cursive;
+  padding: 20px;
+  transition: .6s;
+
+}
+
+.links:hover {
+  color: rgba(255, 255, 255, 0.3);
+  transition: .6s;
+}
+
+.main-container {
+  width: 70%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  padding: 4%;
+  left: 30%;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+.img-bio {
+  max-width: 30%;
+  min-width: 30%;
+  padding: 2%;
+}
+
+.quote {
+    font-family: "Aboreto", sans-serif;
+    padding: 10%;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 480px) {
+
+  .hd-link {
+    font-size: 16px;
+  }
+
+  .links {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .links-wrapper {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .img-bio{
+    max-width: 100%;
+    margin-left: 5%;
+  }
+
+  .main-container {
+    margin-left: 10px;
+    position: relative;
+    left: 15%;
+  }
+
+
+}
